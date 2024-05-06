@@ -15,6 +15,7 @@ export const getStationsForLine = async (lineId) => {
 };
 
 // https://api.tfl.gov.uk/StopPoint/910GCANWHRF/Arrivals
+// https://api.tfl.gov.uk/Line/elizabeth/Arrivals
 export const getStopPointArrivals = async (stopPointId) => {
   const url = `https://api.tfl.gov.uk/StopPoint/${stopPointId}/Arrivals`;
   const response = await fetch(url);

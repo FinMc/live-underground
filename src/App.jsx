@@ -1,10 +1,13 @@
 import "./App.css";
+import { TrainProvider } from "./TrainContext";
 import { UndergroundMap } from "./UndergroundMap";
 
 const App = () => {
   return (
     <div className="App">
-      <UndergroundMap />
+      <TrainProvider>
+        <UndergroundMap />
+      </TrainProvider>
     </div>
   );
 };
