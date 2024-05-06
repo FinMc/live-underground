@@ -29,9 +29,9 @@ def get_elizabeth_arrivals():
         lat, lang = station_locations.get(naptan_id, (None, None))
 
         if vehicle_id not in grouped_arrivals:
-            grouped_arrivals[vehicle_id] = []
-
-        grouped_arrivals[vehicle_id].append({
+            grouped_arrivals[vehicle_id] = {'currentLocation': [], 'points': [], "currentTime": 0}
+        
+        grouped_arrivals[vehicle_id]['points'].append({
             'naptanId': naptan_id,
             'stationName': station_name,
             'timeToStation': time_to_station,
@@ -41,7 +41,8 @@ def get_elizabeth_arrivals():
 
     # Sort stations by timeToStation
     for vehicle_id in grouped_arrivals:
-        grouped_arrivals[vehicle_id] = sorted(grouped_arrivals[vehicle_id], key=lambda x: x['timeToStation'])
+        grouped_arrivals[vehicle_id]['points'] = sorted(grouped_arrivals[vehicle_id]['points'], key=lambda x: x['timeToStation'])
+        grouped_arrivals[vehicle_id]['currentLocation'] = [grouped_arrivals[vehicle_id]['points'][0]['lat'], grouped_arrivals[vehicle_id]['points'][0]['lang']]
 
     # Return the grouped and sorted arrivals as JSON
     return jsonify(grouped_arrivals)

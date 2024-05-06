@@ -1,13 +1,14 @@
+import { Provider, useDispatch } from "react-redux";
 import "./App.css";
-import { TrainProvider } from "./TrainContext";
 import { UndergroundMap } from "./UndergroundMap";
+import store from "./store/store";
 
 const App = () => {
   return (
     <div className="App">
-      <TrainProvider>
+      <Provider store={store}>
         <UndergroundMap />
-      </TrainProvider>
+      </Provider>
     </div>
   );
 };
