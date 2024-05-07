@@ -1,0 +1,206 @@
+[
+    {
+        "stationId": "940GZZLUALD",
+        "station": "Aldgate Underground Station",
+        "lat": 50.50925107390322,
+        "lang": 0.2735798380317789
+    },
+    {
+        "stationId": "940GZZLUAMS",
+        "station": "Amersham Underground Station",
+        "lat": 50.875141196918435,
+        "lang": -0.9468798512172062
+    },
+    {
+        "stationId": "940GZZLUBBN",
+        "station": "Barbican Underground Station",
+        "lat": 50.55729972189532,
+        "lang": 0.11115323090617138
+    },
+    {
+        "stationId": "940GZZLUBST",
+        "station": "Baker Street Underground Station",
+        "lat": 50.59283907312666,
+        "lang": -0.17071475005085993
+    },
+    {
+        "stationId": "940GZZLUCAL",
+        "station": "Chalfont & Latimer Underground Station",
+        "lat": 50.875419462145885,
+        "lang": -0.8371925354003906
+    },
+    {
+        "stationId": "940GZZLUCSM",
+        "station": "Chesham Underground Station",
+        "lat": 50.88939062409337,
+        "lang": -0.9079170227050782
+    },
+    {
+        "stationId": "940GZZLUCXY",
+        "station": "Croxley Underground Station",
+        "lat": 50.8517997587886,
+        "lang": -0.7228660583496094
+    },
+    {
+        "stationId": "940GZZLUCYD",
+        "station": "Chorleywood Underground Station",
+        "lat": 50.86155246276182,
+        "lang": -0.770416259765625
+    },
+    {
+        "stationId": "940GZZLUEAE",
+        "station": "Eastcote Underground Station",
+        "lat": 50.766212274508746,
+        "lang": -0.7105716447385403
+    },
+    {
+        "stationId": "940GZZLUESQ",
+        "station": "Euston Square Underground Station",
+        "lat": 50.58965051922148,
+        "lang": -0.06395183888516344
+    },
+    {
+        "stationId": "940GZZLUFCN",
+        "station": "Farringdon Underground Station",
+        "lat": 50.574765062681045,
+        "lang": 0.084858694972918
+    },
+    {
+        "stationId": "940GZZLUFYR",
+        "station": "Finchley Road Underground Station",
+        "lat": 50.64910781042496,
+        "lang": -0.25990640976484297
+    },
+    {
+        "stationId": "940GZZLUGPS",
+        "station": "Great Portland Street Underground Station",
+        "lat": 50.588432510682956,
+        "lang": -0.13112788790080823
+    },
+    {
+        "stationId": "940GZZLUHGD",
+        "station": "Hillingdon Underground Station",
+        "lat": 50.78732018135348,
+        "lang": -0.8632043669662282
+    },
+    {
+        "stationId": "940GZZLUHOH",
+        "station": "Harrow-on-the-Hill Underground Station",
+        "lat": 50.746384727746225,
+        "lang": -0.5648188615761841
+    },
+    {
+        "stationId": "940GZZLUICK",
+        "station": "Ickenham Underground Station",
+        "lat": 50.78748927587553,
+        "lang": -0.8294677734375001
+    },
+    {
+        "stationId": "940GZZLUKSX",
+        "station": "King's Cross St. Pancras Underground Station",
+        "lat": 50.58923109677639,
+        "lang": 0.04085540771484376
+    },
+    {
+        "stationId": "940GZZLULVT",
+        "station": "Liverpool Street Underground Station",
+        "lat": 50.5357988220892,
+        "lang": 0.18041610717773438
+    },
+    {
+        "stationId": "940GZZLUMGT",
+        "station": "Moorgate Underground Station",
+        "lat": 50.53983561874309,
+        "lang": 0.13767242431640628
+    },
+    {
+        "stationId": "940GZZLUMPK",
+        "station": "Moor Park Underground Station",
+        "lat": 50.82415602067792,
+        "lang": -0.7103347778320314
+    },
+    {
+        "stationId": "940GZZLUNHA",
+        "station": "North Harrow Underground Station",
+        "lat": 50.76927431732119,
+        "lang": -0.623425749910691
+    },
+    {
+        "stationId": "940GZZLUNKP",
+        "station": "Northwick Park Underground Station",
+        "lat": 50.746223493754805,
+        "lang": -0.5100341616113236
+    },
+    {
+        "stationId": "940GZZLUNOW",
+        "station": "Northwood Underground Station",
+        "lat": 50.810833799613285,
+        "lang": -0.6881481396366286
+    },
+    {
+        "stationId": "940GZZLUNWH",
+        "station": "Northwood Hills Underground Station",
+        "lat": 50.79650156349076,
+        "lang": -0.6667438847666319
+    },
+    {
+        "stationId": "940GZZLUPNR",
+        "station": "Pinner Underground Station",
+        "lat": 50.78135937150782,
+        "lang": -0.6427915043168776
+    },
+    {
+        "stationId": "940GZZLUPRD",
+        "station": "Preston Road Underground Station",
+        "lat": 50.74644917964503,
+        "lang": -0.43876647949218756
+    },
+    {
+        "stationId": "940GZZLURKW",
+        "station": "Rickmansworth Underground Station",
+        "lat": 50.84421291225113,
+        "lang": -0.7419204711914062
+    },
+    {
+        "stationId": "940GZZLURSM",
+        "station": "Ruislip Manor Underground Station",
+        "lat": 50.7811944563692,
+        "lang": -0.734539031982422
+    },
+    {
+        "stationId": "940GZZLURSP",
+        "station": "Ruislip Underground Station",
+        "lat": 50.78781484693658,
+        "lang": -0.7748794555664062
+    },
+    {
+        "stationId": "940GZZLURYL",
+        "station": "Rayners Lane Underground Station",
+        "lat": 50.752833632100035,
+        "lang": -0.6917155154483013
+    },
+    {
+        "stationId": "940GZZLUUXB",
+        "station": "Uxbridge Underground Station",
+        "lat": 50.78748127377536,
+        "lang": -0.9052484390323001
+    },
+    {
+        "stationId": "940GZZLUWAF",
+        "station": "Watford Underground Station",
+        "lat": 50.870003156474716,
+        "lang": -0.7226943969726562
+    },
+    {
+        "stationId": "940GZZLUWHW",
+        "station": "West Harrow Underground Station",
+        "lat": 50.746666417753104,
+        "lang": -0.6208992004394532
+    },
+    {
+        "stationId": "940GZZLUWYP",
+        "station": "Wembley Park Underground Station",
+        "lat": 50.730914042238176,
+        "lang": -0.38864135742187506
+    }
+]

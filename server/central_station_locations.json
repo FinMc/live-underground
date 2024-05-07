@@ -1,0 +1,345 @@
+[
+    {
+        "stationId": "940GZZLUBKE",
+        "station": "Barkingside Underground Station",
+        "line": "central",
+        "lat": 50.77066501946006,
+        "lang": 0.6801223754882814
+    },
+    {
+        "stationId": "940GZZLUBKH",
+        "station": "Buckhurst Hill Underground Station",
+        "line": "central",
+        "lat": 50.84978237196014,
+        "lang": 0.5836213372222554
+    },
+    {
+        "stationId": "940GZZLUBLG",
+        "station": "Bethnal Green Underground Station",
+        "line": "central",
+        "lat": 50.579857570491875,
+        "lang": 0.3695869445800782
+    },
+    {
+        "stationId": "940GZZLUBND",
+        "station": "Bond Street Underground Station",
+        "line": "central",
+        "lat": 50.52572079981567,
+        "lang": -0.1766963544919631
+    },
+    {
+        "stationId": "940GZZLUBNK",
+        "station": "Bank Underground Station",
+        "line": "central",
+        "lat": 50.50883792100927,
+        "lang": 0.1369878046726303
+    },
+    {
+        "stationId": "940GZZLUCHL",
+        "station": "Chancery Lane Underground Station",
+        "line": "central",
+        "lat": 50.51713778714002,
+        "lang": 0.06248474121093751
+    },
+    {
+        "stationId": "940GZZLUCWL",
+        "station": "Chigwell Underground Station",
+        "line": "central",
+        "lat": 50.81623930800507,
+        "lang": 0.6428718566894532
+    },
+    {
+        "stationId": "940GZZLUDBN",
+        "station": "Debden Underground Station",
+        "line": "central",
+        "lat": 50.88549211660664,
+        "lang": 0.6372070312500001
+    },
+    {
+        "stationId": "940GZZLUEAN",
+        "station": "East Acton Underground Station",
+        "line": "central",
+        "lat": 50.500871562940745,
+        "lang": -0.5172149939503524
+    },
+    {
+        "stationId": "940GZZLUEBY",
+        "station": "Ealing Broadway Underground Station",
+        "line": "central",
+        "lat": 50.500871562940745,
+        "lang": -0.7060425085987899
+    },
+    {
+        "stationId": "940GZZLUEPG",
+        "station": "Epping Underground Station",
+        "line": "central",
+        "lat": 50.90508964256854,
+        "lang": 0.6670761108398439
+    },
+    {
+        "stationId": "940GZZLUFLP",
+        "station": "Fairlop Underground Station",
+        "line": "central",
+        "lat": 50.78477609552636,
+        "lang": 0.6804656982421876
+    },
+    {
+        "stationId": "940GZZLUGFD",
+        "station": "Greenford Underground Station",
+        "line": "central",
+        "lat": 50.624419654941676,
+        "lang": -0.7767677307128907
+    },
+    {
+        "stationId": "940GZZLUGGH",
+        "station": "Grange Hill Underground Station",
+        "line": "central",
+        "lat": 50.81645622212523,
+        "lang": 0.667247772216797
+    },
+    {
+        "stationId": "940GZZLUGTH",
+        "station": "Gants Hill Underground Station",
+        "line": "central",
+        "lat": 50.73993156768006,
+        "lang": 0.6674194335937501
+    },
+    {
+        "stationId": "940GZZLUHBN",
+        "station": "Holborn Underground Station",
+        "line": "central",
+        "lat": 50.52565075356608,
+        "lang": 0.008754730224609377
+    },
+    {
+        "stationId": "940GZZLUHGR",
+        "station": "Hanger Lane Underground Station",
+        "line": "central",
+        "lat": 50.54529020047422,
+        "lang": -0.6516265869140626
+    },
+    {
+        "stationId": "940GZZLUHLT",
+        "station": "Hainault Underground Station",
+        "line": "central",
+        "lat": 50.799099908721615,
+        "lang": 0.6802940368652345
+    },
+    {
+        "stationId": "940GZZLUHPK",
+        "station": "Holland Park Underground Station",
+        "line": "central",
+        "lat": 50.50082976131577,
+        "lang": -0.37218056774623426
+    },
+    {
+        "stationId": "940GZZLULGN",
+        "station": "Loughton Underground Station",
+        "line": "central",
+        "lat": 50.87509450155524,
+        "lang": 0.6198692321777345
+    },
+    {
+        "stationId": "940GZZLULGT",
+        "station": "Lancaster Gate Underground Station",
+        "line": "central",
+        "lat": 50.50512971183553,
+        "lang": -0.24753570556640628
+    },
+    {
+        "stationId": "940GZZLULVT",
+        "station": "Liverpool Street Underground Station",
+        "line": "central",
+        "lat": 50.53815922796741,
+        "lang": 0.18024043219917021
+    },
+    {
+        "stationId": "940GZZLULYN",
+        "station": "Leyton Underground Station",
+        "line": "central",
+        "lat": 50.68096552381512,
+        "lang": 0.5831985101692849
+    },
+    {
+        "stationId": "940GZZLULYS",
+        "station": "Leytonstone Underground Station",
+        "line": "central",
+        "lat": 50.72021290135764,
+        "lang": 0.5831985101692849
+    },
+    {
+        "stationId": "940GZZLUMBA",
+        "station": "Marble Arch Underground Station",
+        "line": "central",
+        "lat": 50.51648287996525,
+        "lang": -0.2305412292480469
+    },
+    {
+        "stationId": "940GZZLUMED",
+        "station": "Mile End Underground Station",
+        "line": "central",
+        "lat": 50.5795093724428,
+        "lang": 0.44176824115402363
+    },
+    {
+        "stationId": "940GZZLUNAN",
+        "station": "North Acton Underground Station",
+        "line": "central",
+        "lat": 50.50091765054666,
+        "lang": -0.5512099077478761
+    },
+    {
+        "stationId": "940GZZLUNBP",
+        "station": "Newbury Park Underground Station",
+        "line": "central",
+        "lat": 50.753834709847816,
+        "lang": 0.6802940368652345
+    },
+    {
+        "stationId": "940GZZLUNHG",
+        "station": "Notting Hill Gate Underground Station",
+        "line": "central",
+        "lat": 50.5005440046441,
+        "lang": -0.3397178649902344
+    },
+    {
+        "stationId": "940GZZLUNHT",
+        "station": "Northolt Underground Station",
+        "line": "central",
+        "lat": 50.67535789077519,
+        "lang": -0.8013153813265862
+    },
+    {
+        "stationId": "940GZZLUOXC",
+        "station": "Oxford Circus Underground Station",
+        "line": "central",
+        "lat": 50.5262428115378,
+        "lang": -0.12347354098950716
+    },
+    {
+        "stationId": "940GZZLUPVL",
+        "station": "Perivale Underground Station",
+        "line": "central",
+        "lat": 50.59489790517378,
+        "lang": -0.729045867919922
+    },
+    {
+        "stationId": "940GZZLUQWY",
+        "station": "Queensway Underground Station",
+        "line": "central",
+        "lat": 50.50076238175022,
+        "lang": -0.2866744995117188
+    },
+    {
+        "stationId": "940GZZLURBG",
+        "station": "Redbridge Underground Station",
+        "line": "central",
+        "lat": 50.74025746982477,
+        "lang": 0.6392669677734376
+    },
+    {
+        "stationId": "940GZZLURSG",
+        "station": "Ruislip Gardens Underground Station",
+        "line": "central",
+        "lat": 50.74031227882751,
+        "lang": -0.8011624897596393
+    },
+    {
+        "stationId": "940GZZLURVY",
+        "station": "Roding Valley Underground Station",
+        "line": "central",
+        "lat": 50.81602239287739,
+        "lang": 0.6116294860839845
+    },
+    {
+        "stationId": "940GZZLUSBC",
+        "station": "Shepherd's Bush (Central) Underground Station",
+        "line": "central",
+        "lat": 50.50080964632655,
+        "lang": -0.4042682124506181
+    },
+    {
+        "stationId": "940GZZLUSNB",
+        "station": "Snaresbrook Underground Station",
+        "line": "central",
+        "lat": 50.76643086634501,
+        "lang": 0.5831336975097657
+    },
+    {
+        "stationId": "940GZZLUSPU",
+        "station": "St. Paul's Underground Station",
+        "line": "central",
+        "lat": 50.50076238175022,
+        "lang": 0.10248184204101564
+    },
+    {
+        "stationId": "940GZZLUSRP",
+        "station": "South Ruislip Underground Station",
+        "line": "central",
+        "lat": 50.70728521381653,
+        "lang": -0.8011263742829101
+    },
+    {
+        "stationId": "940GZZLUSTD",
+        "station": "Stratford Underground Station",
+        "line": "central",
+        "lat": 50.64554746106382,
+        "lang": 0.5684830979255474
+    },
+    {
+        "stationId": "940GZZLUSWF",
+        "station": "South Woodford Underground Station",
+        "line": "central",
+        "lat": 50.78163412432981,
+        "lang": 0.5835892990974224
+    },
+    {
+        "stationId": "940GZZLUTCR",
+        "station": "Tottenham Court Road Underground Station",
+        "line": "central",
+        "lat": 50.5257598841919,
+        "lang": -0.05355834960937501
+    },
+    {
+        "stationId": "940GZZLUTHB",
+        "station": "Theydon Bois Underground Station",
+        "line": "central",
+        "lat": 50.89383019358425,
+        "lang": 0.6504249572753907
+    },
+    {
+        "stationId": "940GZZLUWCY",
+        "station": "White City Underground Station",
+        "line": "central",
+        "lat": 50.501089945516206,
+        "lang": -0.4727554321289063
+    },
+    {
+        "stationId": "940GZZLUWOF",
+        "station": "Woodford Underground Station",
+        "line": "central",
+        "lat": 50.796712911337075,
+        "lang": 0.5836486816406251
+    },
+    {
+        "stationId": "940GZZLUWRP",
+        "station": "West Ruislip Underground Station",
+        "line": "central",
+        "lat": 50.80701952658132,
+        "lang": -0.8016586303710939
+    },
+    {
+        "stationId": "940GZZLUWSD",
+        "station": "Wanstead Underground Station",
+        "line": "central",
+        "lat": 50.739955826009385,
+        "lang": 0.61141073185905
+    },
+    {
+        "stationId": "940GZZLUWTA",
+        "station": "West Acton Underground Station",
+        "line": "central",
+        "lat": 50.500871569924634,
+        "lang": -0.6251907348632814
+    }
+]

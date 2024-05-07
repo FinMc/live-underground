@@ -1,0 +1,422 @@
+[
+    {
+        "stationId": "940GZZLUACT",
+        "station": "Acton Town Underground Station",
+        "line": "district",
+        "lat": 50.42182920796746,
+        "lang": -0.6737863726290261
+    },
+    {
+        "stationId": "940GZZLUADE",
+        "station": "Aldgate East Underground Station",
+        "line": "district",
+        "lat": 50.529142808410214,
+        "lang": 0.31911849975585943
+    },
+    {
+        "stationId": "940GZZLUBBB",
+        "station": "Bromley-by-Bow Underground Station",
+        "line": "district",
+        "lat": 50.56982801149406,
+        "lang": 0.5599594116210939
+    },
+    {
+        "stationId": "940GZZLUBEC",
+        "station": "Becontree Underground Station",
+        "line": "district",
+        "lat": 50.64880741356882,
+        "lang": 0.7563400268554688
+    },
+    {
+        "stationId": "940GZZLUBKF",
+        "station": "Blackfriars Underground Station",
+        "line": "district",
+        "lat": 50.43979600615463,
+        "lang": 0.08291244506835939
+    },
+    {
+        "stationId": "940GZZLUBKG",
+        "station": "Barking Underground Station",
+        "line": "district",
+        "lat": 50.62333062064346,
+        "lang": 0.7149696350097657
+    },
+    {
+        "stationId": "940GZZLUBSC",
+        "station": "Barons Court Underground Station",
+        "line": "district",
+        "lat": 50.42142513932547,
+        "lang": -0.4169654846191407
+    },
+    {
+        "stationId": "940GZZLUBWR",
+        "station": "Bow Road Underground Station",
+        "line": "district",
+        "lat": 50.56971898281635,
+        "lang": 0.5022811889648439
+    },
+    {
+        "stationId": "940GZZLUBWT",
+        "station": "Bayswater Underground Station",
+        "line": "district",
+        "lat": 50.53732629929159,
+        "lang": -0.3416061401367188
+    },
+    {
+        "stationId": "940GZZLUCST",
+        "station": "Cannon Street Underground Station",
+        "line": "district",
+        "lat": 50.45958045209985,
+        "lang": 0.11535644531250001
+    },
+    {
+        "stationId": "940GZZLUCWP",
+        "station": "Chiswick Park Underground Station",
+        "line": "district",
+        "lat": 50.42197199422936,
+        "lang": -0.6734275817871095
+    },
+    {
+        "stationId": "940GZZLUDGE",
+        "station": "Dagenham East Underground Station",
+        "line": "district",
+        "lat": 50.676554863221,
+        "lang": 0.8001136779785157
+    },
+    {
+        "stationId": "940GZZLUDGY",
+        "station": "Dagenham Heathway Underground Station",
+        "line": "district",
+        "lat": 50.661105365214794,
+        "lang": 0.7760810852050782
+    },
+    {
+        "stationId": "940GZZLUEBY",
+        "station": "Ealing Broadway Underground Station",
+        "line": "district",
+        "lat": 50.49115283387329,
+        "lang": -0.7060432434082032
+    },
+    {
+        "stationId": "940GZZLUECM",
+        "station": "Ealing Common Underground Station",
+        "line": "district",
+        "lat": 50.4617660711828,
+        "lang": -0.6880187988281251
+    },
+    {
+        "stationId": "940GZZLUECT",
+        "station": "Earl's Court Underground Station",
+        "line": "district",
+        "lat": 50.42142513932547,
+        "lang": -0.3537940979003906
+    },
+    {
+        "stationId": "940GZZLUEHM",
+        "station": "East Ham Underground Station",
+        "line": "district",
+        "lat": 50.61036917656235,
+        "lang": 0.6936836242675781
+    },
+    {
+        "stationId": "940GZZLUEMB",
+        "station": "Embankment Underground Station",
+        "line": "district",
+        "lat": 50.42197199422936,
+        "lang": -0.026607513427734375
+    },
+    {
+        "stationId": "940GZZLUEPK",
+        "station": "Elm Park Underground Station",
+        "line": "district",
+        "lat": 50.69656636950563,
+        "lang": 0.83221435546875
+    },
+    {
+        "stationId": "940GZZLUEPY",
+        "station": "East Putney Underground Station",
+        "line": "district",
+        "lat": 50.30323385105634,
+        "lang": -0.3657590772830233
+    },
+    {
+        "stationId": "940GZZLUERC",
+        "station": "Edgware Road (Circle Line) Underground Station",
+        "line": "district",
+        "lat": 50.585634499171896,
+        "lang": -0.28409957885742193
+    },
+    {
+        "stationId": "940GZZLUFBY",
+        "station": "Fulham Broadway Underground Station",
+        "line": "district",
+        "lat": 50.35185855378438,
+        "lang": -0.36603131551000484
+    },
+    {
+        "stationId": "940GZZLUGBY",
+        "station": "Gunnersbury Underground Station",
+        "line": "district",
+        "lat": 50.39385547319791,
+        "lang": -0.6766891479492189
+    },
+    {
+        "stationId": "940GZZLUGTR",
+        "station": "Gloucester Road Underground Station",
+        "line": "district",
+        "lat": 50.42208136445244,
+        "lang": -0.3036689758300782
+    },
+    {
+        "stationId": "940GZZLUHCH",
+        "station": "Hornchurch Underground Station",
+        "line": "district",
+        "lat": 50.707873445562264,
+        "lang": 0.8492088317871095
+    },
+    {
+        "stationId": "940GZZLUHSD",
+        "station": "Hammersmith (Dist&Picc Line) Underground Station",
+        "line": "district",
+        "lat": 50.42156614706274,
+        "lang": -0.4538630901294161
+    },
+    {
+        "stationId": "940GZZLUHSK",
+        "station": "High Street Kensington Underground Station",
+        "line": "district",
+        "lat": 50.46952420325497,
+        "lang": -0.3421211242675781
+    },
+    {
+        "stationId": "940GZZLUKOY",
+        "station": "Kensington (Olympia) Underground Station",
+        "line": "district",
+        "lat": 50.42166952032356,
+        "lang": -0.35383406357194286
+    },
+    {
+        "stationId": "940GZZLUKWG",
+        "station": "Kew Gardens Underground Station",
+        "line": "district",
+        "lat": 50.36067339973373,
+        "lang": -0.7288013673597039
+    },
+    {
+        "stationId": "940GZZLUMED",
+        "station": "Mile End Underground Station",
+        "line": "district",
+        "lat": 50.56977421581001,
+        "lang": 0.44188263620393636
+    },
+    {
+        "stationId": "940GZZLUMMT",
+        "station": "Monument Underground Station",
+        "line": "district",
+        "lat": 50.477539200415485,
+        "lang": 0.18279549377816287
+    },
+    {
+        "stationId": "940GZZLUMSH",
+        "station": "Mansion House Underground Station",
+        "line": "district",
+        "lat": 50.44865415003886,
+        "lang": 0.1000549874242296
+    },
+    {
+        "stationId": "940GZZLUNHG",
+        "station": "Notting Hill Gate Underground Station",
+        "line": "district",
+        "lat": 50.500221451537264,
+        "lang": -0.3419126877637813
+    },
+    {
+        "stationId": "940GZZLUPAC",
+        "station": "Paddington Underground Station",
+        "line": "district",
+        "lat": 50.58312761716071,
+        "lang": -0.3359413146972657
+    },
+    {
+        "stationId": "940GZZLUPLW",
+        "station": "Plaistow Underground Station",
+        "line": "district",
+        "lat": 50.57713235815121,
+        "lang": 0.6445884704589845
+    },
+    {
+        "stationId": "940GZZLUPSG",
+        "station": "Parsons Green Underground Station",
+        "line": "district",
+        "lat": 50.338961667581216,
+        "lang": -0.3660472722884434
+    },
+    {
+        "stationId": "940GZZLUPYB",
+        "station": "Putney Bridge Underground Station",
+        "line": "district",
+        "lat": 50.32751647001354,
+        "lang": -0.36623404468355325
+    },
+    {
+        "stationId": "940GZZLURMD",
+        "station": "Richmond Underground Station",
+        "line": "district",
+        "lat": 50.345131766663016,
+        "lang": -0.7544517517089845
+    },
+    {
+        "stationId": "940GZZLURVP",
+        "station": "Ravenscourt Park Underground Station",
+        "line": "district",
+        "lat": 50.421534510811384,
+        "lang": -0.4849433898925782
+    },
+    {
+        "stationId": "940GZZLUSFB",
+        "station": "Stamford Brook Underground Station",
+        "line": "district",
+        "lat": 50.42200920311729,
+        "lang": -0.5366837315431172
+    },
+    {
+        "stationId": "940GZZLUSFS",
+        "station": "Southfields Underground Station",
+        "line": "district",
+        "lat": 50.2889005459256,
+        "lang": -0.3659820556640625
+    },
+    {
+        "stationId": "940GZZLUSGN",
+        "station": "Stepney Green Underground Station",
+        "line": "district",
+        "lat": 50.564485309567644,
+        "lang": 0.37525177001953125
+    },
+    {
+        "stationId": "940GZZLUSJP",
+        "station": "St. James's Park Underground Station",
+        "line": "district",
+        "lat": 50.42197199422936,
+        "lang": -0.13629913330078128
+    },
+    {
+        "stationId": "940GZZLUSKS",
+        "station": "South Kensington Underground Station",
+        "line": "district",
+        "lat": 50.42134482046972,
+        "lang": -0.274077732925413
+    },
+    {
+        "stationId": "940GZZLUSSQ",
+        "station": "Sloane Square Underground Station",
+        "line": "district",
+        "lat": 50.421534510811384,
+        "lang": -0.21938323974609378
+    },
+    {
+        "stationId": "940GZZLUTMP",
+        "station": "Temple Underground Station",
+        "line": "district",
+        "lat": 50.421206395595995,
+        "lang": 0.03656387329101563
+    },
+    {
+        "stationId": "940GZZLUTNG",
+        "station": "Turnham Green Underground Station",
+        "line": "district",
+        "lat": 50.421620966094515,
+        "lang": -0.5799727907645981
+    },
+    {
+        "stationId": "940GZZLUTWH",
+        "station": "Tower Hill Underground Station",
+        "line": "district",
+        "lat": 50.477390305021174,
+        "lang": 0.25114059448242193
+    },
+    {
+        "stationId": "940GZZLUUPB",
+        "station": "Upminster Bridge Underground Station",
+        "line": "district",
+        "lat": 50.72080800536808,
+        "lang": 0.8699798583984376
+    },
+    {
+        "stationId": "940GZZLUUPK",
+        "station": "Upton Park Underground Station",
+        "line": "district",
+        "lat": 50.59369921413021,
+        "lang": 0.6708526611328126
+    },
+    {
+        "stationId": "940GZZLUUPM",
+        "station": "Upminster Underground Station",
+        "line": "district",
+        "lat": 50.7343838097163,
+        "lang": 0.8917998402896823
+    },
+    {
+        "stationId": "940GZZLUUPY",
+        "station": "Upney Underground Station",
+        "line": "district",
+        "lat": 50.6362884931029,
+        "lang": 0.7374572753906251
+    },
+    {
+        "stationId": "940GZZLUVIC",
+        "station": "Victoria Underground Station",
+        "line": "district",
+        "lat": 50.4220413189262,
+        "lang": -0.17889343476084066
+    },
+    {
+        "stationId": "940GZZLUWBN",
+        "station": "West Brompton Underground Station",
+        "line": "district",
+        "lat": 50.38377836800992,
+        "lang": -0.36565434295389393
+    },
+    {
+        "stationId": "940GZZLUWHM",
+        "station": "West Ham Underground Station",
+        "line": "district",
+        "lat": 50.569500924704,
+        "lang": 0.6045913696289064
+    },
+    {
+        "stationId": "940GZZLUWIM",
+        "station": "Wimbledon Underground Station",
+        "line": "district",
+        "lat": 50.2596076833265,
+        "lang": -0.36563873291015625
+    },
+    {
+        "stationId": "940GZZLUWIP",
+        "station": "Wimbledon Park Underground Station",
+        "line": "district",
+        "lat": 50.27420151184809,
+        "lang": -0.3658103942871094
+    },
+    {
+        "stationId": "940GZZLUWKN",
+        "station": "West Kensington Underground Station",
+        "line": "district",
+        "lat": 50.42142513932547,
+        "lang": -0.4169654846191407
+    },
+    {
+        "stationId": "940GZZLUWPL",
+        "station": "Whitechapel Underground Station",
+        "line": "district",
+        "lat": 50.540926585560634,
+        "lang": 0.33645629882812506
+    },
+    {
+        "stationId": "940GZZLUWSM",
+        "station": "Westminster Underground Station",
+        "line": "district",
+        "lat": 50.4218626237537,
+        "lang": -0.08256912231445312
+    }
+]

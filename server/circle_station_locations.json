@@ -1,0 +1,254 @@
+[
+    {
+        "stationId": "940GZZLUALD",
+        "station": "Aldgate Underground Station",
+        "line": "circle",
+        "lat": 50.50914596630985,
+        "lang": 0.2786098261699044
+    },
+    {
+        "stationId": "940GZZLUBBN",
+        "station": "Barbican Underground Station",
+        "line": "circle",
+        "lat": 50.55942399308565,
+        "lang": 0.1139804046576787
+    },
+    {
+        "stationId": "940GZZLUBKF",
+        "station": "Blackfriars Underground Station",
+        "line": "circle",
+        "lat": 50.4402410281515,
+        "lang": 0.08332868053229527
+    },
+    {
+        "stationId": "940GZZLUBST",
+        "station": "Baker Street Underground Station",
+        "line": "circle",
+        "lat": 50.5923898298205,
+        "lang": -0.16979523482581804
+    },
+    {
+        "stationId": "940GZZLUBWT",
+        "station": "Bayswater Underground Station",
+        "line": "circle",
+        "lat": 50.53743395002954,
+        "lang": -0.3364021869267653
+    },
+    {
+        "stationId": "940GZZLUCST",
+        "station": "Cannon Street Underground Station",
+        "line": "circle",
+        "lat": 50.460073287344514,
+        "lang": 0.11496916995207941
+    },
+    {
+        "stationId": "940GZZLUEMB",
+        "station": "Embankment Underground Station",
+        "line": "circle",
+        "lat": 50.42292035422737,
+        "lang": -0.026918649789688946
+    },
+    {
+        "stationId": "940GZZLUERC",
+        "station": "Edgware Road (Circle Line) Underground Station",
+        "line": "circle",
+        "lat": 50.5857985081426,
+        "lang": -0.2839976263252853
+    },
+    {
+        "stationId": "940GZZLUESQ",
+        "station": "Euston Square Underground Station",
+        "line": "circle",
+        "lat": 50.591762124655155,
+        "lang": -0.06350296568129689
+    },
+    {
+        "stationId": "940GZZLUFCN",
+        "station": "Farringdon Underground Station",
+        "line": "circle",
+        "lat": 50.5763692704388,
+        "lang": 0.08703231811523439
+    },
+    {
+        "stationId": "940GZZLUGHK",
+        "station": "Goldhawk Road Underground Station",
+        "line": "circle",
+        "lat": 50.45761330857094,
+        "lang": -0.45164108276367193
+    },
+    {
+        "stationId": "940GZZLUGPS",
+        "station": "Great Portland Street Underground Station",
+        "line": "circle",
+        "lat": 50.592021192951314,
+        "lang": -0.13103743558527062
+    },
+    {
+        "stationId": "940GZZLUGTR",
+        "station": "Gloucester Road Underground Station",
+        "line": "circle",
+        "lat": 50.425362353704806,
+        "lang": -0.30332565307617193
+    },
+    {
+        "stationId": "940GZZLUHSC",
+        "station": "Hammersmith (H&C Line) Underground Station",
+        "line": "circle",
+        "lat": 50.448139646696035,
+        "lang": -0.45372412222243425
+    },
+    {
+        "stationId": "940GZZLUHSK",
+        "station": "High Street Kensington Underground Station",
+        "line": "circle",
+        "lat": 50.469496394759695,
+        "lang": -0.33714372153800026
+    },
+    {
+        "stationId": "940GZZLUKSX",
+        "station": "King's Cross St. Pancras Underground Station",
+        "line": "circle",
+        "lat": 50.59206458624234,
+        "lang": 0.04102706909179688
+    },
+    {
+        "stationId": "940GZZLULAD",
+        "station": "Ladbroke Grove Underground Station",
+        "line": "circle",
+        "lat": 50.54334848383167,
+        "lang": -0.4515875802928183
+    },
+    {
+        "stationId": "940GZZLULRD",
+        "station": "Latimer Road Underground Station",
+        "line": "circle",
+        "lat": 50.52850955202582,
+        "lang": -0.4523346698732978
+    },
+    {
+        "stationId": "940GZZLULVT",
+        "station": "Liverpool Street Underground Station",
+        "line": "circle",
+        "lat": 50.5381257122122,
+        "lang": 0.18082374957701042
+    },
+    {
+        "stationId": "940GZZLUMGT",
+        "station": "Moorgate Underground Station",
+        "line": "circle",
+        "lat": 50.542042845148636,
+        "lang": 0.14010736744125565
+    },
+    {
+        "stationId": "940GZZLUMMT",
+        "station": "Monument Underground Station",
+        "line": "circle",
+        "lat": 50.47895298654363,
+        "lang": 0.18285956325136968
+    },
+    {
+        "stationId": "940GZZLUMSH",
+        "station": "Mansion House Underground Station",
+        "line": "circle",
+        "lat": 50.45122035191464,
+        "lang": 0.09644907072315691
+    },
+    {
+        "stationId": "940GZZLUNHG",
+        "station": "Notting Hill Gate Underground Station",
+        "line": "circle",
+        "lat": 50.500896179653196,
+        "lang": -0.340078962852266
+    },
+    {
+        "stationId": "940GZZLUPAC",
+        "station": "Paddington Underground Station",
+        "line": "circle",
+        "lat": 50.58179918420679,
+        "lang": -0.3344683091657564
+    },
+    {
+        "stationId": "940GZZLUPAH",
+        "station": "Paddington (H&C Line)-Underground",
+        "line": "circle",
+        "lat": 50.592800288559346,
+        "lang": -0.3520503756661065
+    },
+    {
+        "stationId": "940GZZLURYO",
+        "station": "Royal Oak Underground Station",
+        "line": "circle",
+        "lat": 50.57898551969881,
+        "lang": -0.41679382324218756
+    },
+    {
+        "stationId": "940GZZLUSBM",
+        "station": "Shepherd's Bush Market Underground Station",
+        "line": "circle",
+        "lat": 50.471272338978714,
+        "lang": -0.4519844055175781
+    },
+    {
+        "stationId": "940GZZLUSJP",
+        "station": "St. James's Park Underground Station",
+        "line": "circle",
+        "lat": 50.424387299935354,
+        "lang": -0.13668932212373308
+    },
+    {
+        "stationId": "940GZZLUSKS",
+        "station": "South Kensington Underground Station",
+        "line": "circle",
+        "lat": 50.42459680987685,
+        "lang": -0.2743148803710938
+    },
+    {
+        "stationId": "940GZZLUSSQ",
+        "station": "Sloane Square Underground Station",
+        "line": "circle",
+        "lat": 50.424706174038526,
+        "lang": -0.21886825561523438
+    },
+    {
+        "stationId": "940GZZLUTMP",
+        "station": "Temple Underground Station",
+        "line": "circle",
+        "lat": 50.424815537947616,
+        "lang": 0.03604888916015626
+    },
+    {
+        "stationId": "940GZZLUTWH",
+        "station": "Tower Hill Underground Station",
+        "line": "circle",
+        "lat": 50.480121284236155,
+        "lang": 0.2501106262207032
+    },
+    {
+        "stationId": "940GZZLUVIC",
+        "station": "Victoria Underground Station",
+        "line": "circle",
+        "lat": 50.424334960415415,
+        "lang": -0.17928444638326105
+    },
+    {
+        "stationId": "940GZZLUWLA",
+        "station": "Wood Lane Underground Station",
+        "line": "circle",
+        "lat": 50.48903472707929,
+        "lang": -0.45256935849263613
+    },
+    {
+        "stationId": "940GZZLUWSM",
+        "station": "Westminster Underground Station",
+        "line": "circle",
+        "lat": 50.42448744546264,
+        "lang": -0.08274078369140626
+    },
+    {
+        "stationId": "940GZZLUWSP",
+        "station": "Westbourne Park Underground Station",
+        "line": "circle",
+        "lat": 50.56055967312766,
+        "lang": -0.44425964355468756
+    }
+]

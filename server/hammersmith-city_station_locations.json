@@ -1,0 +1,176 @@
+[
+    {
+        "stationId": "940GZZLUADE",
+        "station": "Aldgate East Underground Station",
+        "lat": 50.53138318394802,
+        "lang": 0.3145645363377359
+    },
+    {
+        "stationId": "940GZZLUBBB",
+        "station": "Bromley-by-Bow Underground Station",
+        "lat": 50.571903529821356,
+        "lang": 0.5603336764598145
+    },
+    {
+        "stationId": "940GZZLUBBN",
+        "station": "Barbican Underground Station",
+        "lat": 50.561033747212086,
+        "lang": 0.11837649370530558
+    },
+    {
+        "stationId": "940GZZLUBKG",
+        "station": "Barking Underground Station",
+        "lat": 50.62495954593053,
+        "lang": 0.7134401941928514
+    },
+    {
+        "stationId": "940GZZLUBST",
+        "station": "Baker Street Underground Station",
+        "lat": 50.59484888782217,
+        "lang": -0.16967734277165916
+    },
+    {
+        "stationId": "940GZZLUBWR",
+        "station": "Bow Road Underground Station",
+        "lat": 50.572776547732886,
+        "lang": 0.5035840724663299
+    },
+    {
+        "stationId": "940GZZLUEHM",
+        "station": "East Ham Underground Station",
+        "lat": 50.61276326321465,
+        "lang": 0.6919546537817969
+    },
+    {
+        "stationId": "940GZZLUERC",
+        "station": "Edgware Road (Circle Line) Underground Station",
+        "lat": 50.59472896863803,
+        "lang": -0.2840636760555105
+    },
+    {
+        "stationId": "940GZZLUESQ",
+        "station": "Euston Square Underground Station",
+        "lat": 50.59416313899284,
+        "lang": -0.06360473073046437
+    },
+    {
+        "stationId": "940GZZLUFCN",
+        "station": "Farringdon Underground Station",
+        "lat": 50.57926051047362,
+        "lang": 0.09089479968601655
+    },
+    {
+        "stationId": "940GZZLUGHK",
+        "station": "Goldhawk Road Underground Station",
+        "lat": 50.45772006271881,
+        "lang": -0.45758127541315924
+    },
+    {
+        "stationId": "940GZZLUGPS",
+        "station": "Great Portland Street Underground Station",
+        "lat": 50.59484888782217,
+        "lang": -0.13105246016754893
+    },
+    {
+        "stationId": "940GZZLUHSC",
+        "station": "Hammersmith (H&C Line) Underground Station",
+        "lat": 50.44832291434209,
+        "lang": -0.4574775695800782
+    },
+    {
+        "stationId": "940GZZLUKSX",
+        "station": "King's Cross St. Pancras Underground Station",
+        "lat": 50.594788934522086,
+        "lang": 0.04085540771484376
+    },
+    {
+        "stationId": "940GZZLULAD",
+        "station": "Ladbroke Grove Underground Station",
+        "lat": 50.543540477218045,
+        "lang": -0.45702947327521676
+    },
+    {
+        "stationId": "940GZZLULRD",
+        "station": "Latimer Road Underground Station",
+        "lat": 50.528692505165544,
+        "lang": -0.45687762466367193
+    },
+    {
+        "stationId": "940GZZLULVT",
+        "station": "Liverpool Street Underground Station",
+        "lat": 50.541493787862365,
+        "lang": 0.18050787050399203
+    },
+    {
+        "stationId": "940GZZLUMED",
+        "station": "Mile End Underground Station",
+        "lat": 50.571537084424804,
+        "lang": 0.4423297565533613
+    },
+    {
+        "stationId": "940GZZLUMGT",
+        "station": "Moorgate Underground Station",
+        "lat": 50.544685913504345,
+        "lang": 0.14329973994296366
+    },
+    {
+        "stationId": "940GZZLUPAH",
+        "station": "Paddington (H&C Line)-Underground",
+        "lat": 50.59544275464843,
+        "lang": -0.35190582275390625
+    },
+    {
+        "stationId": "940GZZLUPLW",
+        "station": "Plaistow Underground Station",
+        "lat": 50.58008427728553,
+        "lang": 0.6408792130172271
+    },
+    {
+        "stationId": "940GZZLURYO",
+        "station": "Royal Oak Underground Station",
+        "lat": 50.580706654371035,
+        "lang": -0.41908908844388915
+    },
+    {
+        "stationId": "940GZZLUSBM",
+        "station": "Shepherd's Bush Market Underground Station",
+        "lat": 50.471647033958796,
+        "lang": -0.4568570161640451
+    },
+    {
+        "stationId": "940GZZLUSGN",
+        "station": "Stepney Green Underground Station",
+        "lat": 50.56685569459545,
+        "lang": 0.37164365178154585
+    },
+    {
+        "stationId": "940GZZLUUPK",
+        "station": "Upton Park Underground Station",
+        "lat": 50.596658221657385,
+        "lang": 0.6669212967701998
+    },
+    {
+        "stationId": "940GZZLUWHM",
+        "station": "West Ham Underground Station",
+        "lat": 50.57234012009093,
+        "lang": 0.6044180361065711
+    },
+    {
+        "stationId": "940GZZLUWLA",
+        "station": "Wood Lane Underground Station",
+        "lat": 50.48929621864011,
+        "lang": -0.4581642150878907
+    },
+    {
+        "stationId": "940GZZLUWPL",
+        "station": "Whitechapel Underground Station",
+        "lat": 50.54361598271657,
+        "lang": 0.3340774134576741
+    },
+    {
+        "stationId": "940GZZLUWSP",
+        "station": "Westbourne Park Underground Station",
+        "lat": 50.562722926784105,
+        "lang": -0.44792488019983706
+    }
+]

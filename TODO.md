@@ -1,3 +1,4 @@
 - Fix map font on external machines
-- Trains should be fetched once, then for each train a list of points for each location is given, trains should update for each second where the train should be on this line of points
 - Add extra lines
+- Map server urls correctly
+- Deploy to vercel

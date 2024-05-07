@@ -1,0 +1,98 @@
+[
+    {
+        "stationId": "940GZZLUBLR",
+        "station": "Blackhorse Road Underground Station",
+        "lat": 50.745966937472666,
+        "lang": 0.39384878780333926
+    },
+    {
+        "stationId": "940GZZLUBXN",
+        "station": "Brixton Underground Station",
+        "lat": 50.22041884249352,
+        "lang": -0.037742011712935675
+    },
+    {
+        "stationId": "940GZZLUEUS",
+        "station": "Euston Underground Station",
+        "lat": 50.60492212596717,
+        "lang": 0.008583068847656252
+    },
+    {
+        "stationId": "940GZZLUFPK",
+        "station": "Finsbury Park Underground Station",
+        "lat": 50.72365408683275,
+        "lang": 0.2436555973473631
+    },
+    {
+        "stationId": "940GZZLUGPK",
+        "station": "Green Park Underground Station",
+        "lat": 50.48479663310923,
+        "lang": -0.16451840899632592
+    },
+    {
+        "stationId": "940GZZLUHAI",
+        "station": "Highbury & Islington Underground Station",
+        "lat": 50.66682599296189,
+        "lang": 0.2124683865592081
+    },
+    {
+        "stationId": "940GZZLUKSX",
+        "station": "King's Cross St. Pancras Underground Station",
+        "lat": 50.605089923726894,
+        "lang": 0.06148397736166712
+    },
+    {
+        "stationId": "940GZZLUOXC",
+        "station": "Oxford Circus Underground Station",
+        "lat": 50.52608840961042,
+        "lang": -0.12384369915276808
+    },
+    {
+        "stationId": "940GZZLUPCO",
+        "station": "Pimlico Underground Station",
+        "lat": 50.36929142490467,
+        "lang": -0.1645966327574544
+    },
+    {
+        "stationId": "940GZZLUSKW",
+        "station": "Stockwell Underground Station",
+        "lat": 50.25148972090665,
+        "lang": -0.08609361328738575
+    },
+    {
+        "stationId": "940GZZLUSVS",
+        "station": "Seven Sisters Underground Station",
+        "lat": 50.74610139198497,
+        "lang": 0.3185458893673143
+    },
+    {
+        "stationId": "940GZZLUTMH",
+        "station": "Tottenham Hale Underground Station",
+        "lat": 50.74610139198497,
+        "lang": 0.3557339794322401
+    },
+    {
+        "stationId": "940GZZLUVIC",
+        "station": "Victoria Underground Station",
+        "lat": 50.43267211136781,
+        "lang": -0.1644987943776766
+    },
+    {
+        "stationId": "940GZZLUVXL",
+        "station": "Vauxhall Underground Station",
+        "lat": 50.289848182440544,
+        "lang": -0.14508146949114398
+    },
+    {
+        "stationId": "940GZZLUWRR",
+        "station": "Warren Street Underground Station",
+        "lat": 50.57860963657998,
+        "lang": -0.04084301853138462
+    },
+    {
+        "stationId": "940GZZLUWWL",
+        "station": "Walthamstow Central Underground Station",
+        "lat": 50.7462464018689,
+        "lang": 0.47569653005982376
+    }
+]

@@ -2,264 +2,308 @@
     {
         "stationId": "910GABWDXR",
         "station": "Abbey Wood",
+        "line": "elizabeth",
         "lat": 50.31280420126435,
         "lang": 0.7546234130859376
     },
     {
         "stationId": "910GABWD",
         "station": "Abbey Wood (London) Rail Station",
+        "line": "elizabeth",
         "lat": 50.31280420126435,
         "lang": 0.7546234130859376
     },
     {
         "stationId": "910GACTONML",
         "station": "Acton Main Line Rail Station",
+        "line": "elizabeth",
         "lat": 50.538635526096115,
         "lang": -0.6035614013671875
     },
     {
         "stationId": "910GBNHAM",
         "station": "Burnham (Berks) Rail Station",
+        "line": "elizabeth",
         "lat": 50.6013078424118,
         "lang": -0.9151887574624197
     },
     {
         "stationId": "910GBONDST",
         "station": "Bond Street",
+        "line": "elizabeth",
         "lat": 50.534271295422826,
         "lang": -0.18951416015625003
     },
     {
         "stationId": "910GBRTWOOD",
         "station": "Brentwood Rail Station",
+        "line": "elizabeth",
         "lat": 50.84692264194612,
         "lang": 0.9025955200195314
     },
     {
         "stationId": "910GCANWHRF",
         "station": "Canary Wharf",
+        "line": "elizabeth",
         "lat": 50.44602735942673,
         "lang": 0.5033111572265626
     },
     {
         "stationId": "910GCHDWLHT",
         "station": "Chadwell Heath Rail Station",
+        "line": "elizabeth",
         "lat": 50.76643086634501,
         "lang": 0.7752227783203125
     },
     {
         "stationId": "910GCSTMHSXR",
         "station": "Custom House",
+        "line": "elizabeth",
         "lat": 50.43903069567769,
         "lang": 0.7458686828613281
     },
     {
         "stationId": "910GEALINGB",
         "station": "Ealing Broadway Rail Station",
+        "line": "elizabeth",
         "lat": 50.510267422269216,
         "lang": -0.7055372707789888
     },
     {
         "stationId": "910GFRNDXR",
         "station": "Farringdon",
+        "line": "elizabeth",
         "lat": 50.56732028807225,
         "lang": 0.07364273071289062
     },
     {
         "stationId": "910GFRSTGT",
         "station": "Forest Gate Rail Station",
+        "line": "elizabeth",
         "lat": 50.69167303956679,
         "lang": 0.6574630737304689
     },
     {
         "stationId": "910GGIDEAPK",
         "station": "Gidea Park Rail Station",
+        "line": "elizabeth",
         "lat": 50.801161308346565,
         "lang": 0.8304977416992189
     },
     {
         "stationId": "910GGODMAYS",
         "station": "Goodmayes Rail Station",
+        "line": "elizabeth",
         "lat": 50.74460261502852,
         "lang": 0.7414054870605469
     },
     {
         "stationId": "910GHANWELL",
         "station": "Hanwell Rail Station",
+        "line": "elizabeth",
         "lat": 50.51015164214735,
         "lang": -0.7783126831054689
     },
     {
         "stationId": "910GHAYESAH",
         "station": "Hayes & Harlington Rail Station",
+        "line": "elizabeth",
         "lat": 50.51015164214735,
         "lang": -0.8783912658691407
     },
     {
         "stationId": "910GHRLDWOD",
         "station": "Harold Wood Rail Station",
+        "line": "elizabeth",
         "lat": 50.81363625997854,
         "lang": 0.8500671386718751
     },
     {
         "stationId": "910GHTRWAPT",
         "station": "Heathrow Terminals 2 & 3 Rail Station",
+        "line": "elizabeth",
         "lat": 50.34535086154357,
         "lang": -0.9079170227050782
     },
     {
         "stationId": "910GHTRWTM4",
         "station": "Heathrow Terminal 4 Rail Station",
+        "line": "elizabeth",
         "lat": 50.28736503829308,
         "lang": -0.9080886840820314
     },
     {
         "stationId": "910GHTRWTM5",
         "station": "Heathrow Terminal 5 Rail Station",
+        "line": "elizabeth",
         "lat": 50.27913826086144,
         "lang": -0.9661102294921876
     },
     {
         "stationId": "910GILFORD",
         "station": "Ilford Rail Station",
+        "line": "elizabeth",
         "lat": 50.72146007352842,
         "lang": 0.7039833068847657
     },
     {
         "stationId": "910GIVER",
         "station": "Iver Rail Station",
+        "line": "elizabeth",
         "lat": 50.55728805962664,
         "lang": -0.914440155029297
     },
     {
         "stationId": "910GLANGLEY",
         "station": "Langley (Berks) Rail Station",
+        "line": "elizabeth",
         "lat": 50.5713543864897,
         "lang": -0.9146118164062501
     },
     {
         "stationId": "910GLIVST",
         "station": "London Liverpool Street Rail Station",
+        "line": "elizabeth",
         "lat": 50.56732028807225,
         "lang": 0.17990112304687503
     },
     {
         "stationId": "910GLIVSTLL",
         "station": "Liverpool Street",
+        "line": "elizabeth",
         "lat": 50.56710221885822,
         "lang": 0.18007278442382815
     },
     {
         "stationId": "910GMANRPK",
         "station": "Manor Park Rail Station",
+        "line": "elizabeth",
         "lat": 50.71048238362443,
         "lang": 0.6868171691894532
     },
     {
         "stationId": "910GMDNHEAD",
         "station": "MastationIdenhead Rail Station",
+        "line": "elizabeth",
         "lat": 50.630844443927124,
         "lang": -0.9147834777832032
     },
     {
         "stationId": "910GMRYLAND",
         "station": "Maryland Rail Station",
+        "line": "elizabeth",
         "lat": 50.6688691114111,
         "lang": 0.622051436763127
     },
     {
         "stationId": "910GPADTLL",
         "station": "Paddington",
+        "line": "elizabeth",
         "lat": 50.56560893407466,
         "lang": -0.3082383158084068
     },
     {
         "stationId": "910GPADTON",
         "station": "London Paddington Rail Station",
+        "line": "elizabeth",
         "lat": 50.56560893407466,
         "lang": -0.3082383158084068
     },
     {
         "stationId": "910GRDNGSTN",
         "station": "Reading Rail Station",
+        "line": "elizabeth",
         "lat": 50.66081207332329,
         "lang": -0.9147179605837975
     },
     {
         "stationId": "910GROMFORD",
         "station": "Romford Rail Station",
+        "line": "elizabeth",
         "lat": 50.78586138656053,
         "lang": 0.8064651489257814
     },
     {
         "stationId": "910GSHENFLD",
         "station": "Shenfield Rail Station",
+        "line": "elizabeth",
         "lat": 50.86924482345238,
         "lang": 0.9386444091796876
     },
     {
         "stationId": "910GSLOUGH",
         "station": "Slough Rail Station",
+        "line": "elizabeth",
         "lat": 50.58617945586238,
         "lang": -0.9149551391601564
     },
     {
         "stationId": "910GSTFD",
         "station": "Stratford (London) Rail Station",
+        "line": "elizabeth",
         "lat": 50.64532422276904,
         "lang": 0.5843353271484376
     },
     {
         "stationId": "910GSTHALL",
         "station": "Southall Rail Station",
+        "line": "elizabeth",
         "lat": 50.510260808613715,
         "lang": -0.8121299743652345
     },
     {
         "stationId": "910GSVNKNGS",
         "station": "Seven Kings Rail Station",
+        "line": "elizabeth",
         "lat": 50.73352169790337,
         "lang": 0.7233810424804689
     },
     {
         "stationId": "910GTAPLOW",
         "station": "Taplow Rail Station",
+        "line": "elizabeth",
         "lat": 50.61603344024642,
         "lang": -0.9147834777832032
     },
     {
         "stationId": "910GTOTCTRD",
         "station": "Tottenham Court Road",
+        "line": "elizabeth",
         "lat": 50.53394396184457,
         "lang": -0.04119873046875001
     },
     {
         "stationId": "910GTWYFORD",
         "station": "Twyford Rail Station",
+        "line": "elizabeth",
         "lat": 50.64641274763311,
         "lang": -0.9146118164062501
     },
     {
         "stationId": "910GWCHAPXR",
         "station": "Whitechapel",
+        "line": "elizabeth",
         "lat": 50.556197471327174,
         "lang": 0.3139686584472657
     },
     {
         "stationId": "910GWDRYTON",
         "station": "West Drayton Rail Station",
+        "line": "elizabeth",
         "lat": 50.531761679944324,
         "lang": -0.9147834777832032
     },
     {
         "stationId": "910GWEALING",
         "station": "West Ealing Rail Station",
+        "line": "elizabeth",
         "lat": 50.51015164214735,
         "lang": -0.7364273071289062
     },
     {
         "stationId": "910GWOLWXR",
         "station": "Woolwich",
+        "line": "elizabeth",
         "lat": 50.328915940539744,
         "lang": 0.7541084289550782
     }

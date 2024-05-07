@@ -1,0 +1,317 @@
+[
+    {
+        "stationId": "940GZZDLABR",
+        "station": "Abbey Road DLR Station",
+        "line": "dlr",
+        "lat": 50.59653243467795,
+        "lang": 0.6039047241210939
+    },
+    {
+        "stationId": "940GZZDLALL",
+        "station": "All Saints DLR Station",
+        "line": "dlr",
+        "lat": 50.51916121427191,
+        "lang": 0.4839456929798126
+    },
+    {
+        "stationId": "940GZZDLBEC",
+        "station": "Beckton DLR Station",
+        "line": "dlr",
+        "lat": 50.367673294600536,
+        "lang": 0.8063795501383633
+    },
+    {
+        "stationId": "940GZZDLBLA",
+        "station": "Blackwall DLR Station",
+        "line": "dlr",
+        "lat": 50.480717223036855,
+        "lang": 0.5141652032380196
+    },
+    {
+        "stationId": "940GZZDLBNK",
+        "station": "Bank DLR Station",
+        "line": "dlr",
+        "lat": 50.49235953234728,
+        "lang": 0.16178907903460885
+    },
+    {
+        "stationId": "940GZZDLBOW",
+        "station": "Bow Church DLR Station",
+        "line": "dlr",
+        "lat": 50.55898296336829,
+        "lang": 0.48339120655303885
+    },
+    {
+        "stationId": "940GZZDLBPK",
+        "station": "Beckton Park DLR Station",
+        "line": "dlr",
+        "lat": 50.40923466657902,
+        "lang": 0.8055792212765401
+    },
+    {
+        "stationId": "940GZZDLCAN",
+        "station": "Canary Wharf DLR Station",
+        "line": "dlr",
+        "lat": 50.433766108389335,
+        "lang": 0.4836684497664257
+    },
+    {
+        "stationId": "940GZZDLCGT",
+        "station": "Canning Town DLR Station",
+        "line": "dlr",
+        "lat": 50.49202650991501,
+        "lang": 0.6044197082519532
+    },
+    {
+        "stationId": "940GZZDLCLA",
+        "station": "Crossharbour DLR Station",
+        "line": "dlr",
+        "lat": 50.37842258985643,
+        "lang": 0.48391342163085943
+    },
+    {
+        "stationId": "940GZZDLCUS",
+        "station": "Custom House (for ExCel) DLR Station",
+        "line": "dlr",
+        "lat": 50.45564161729697,
+        "lang": 0.7718211274065646
+    },
+    {
+        "stationId": "940GZZDLCUT",
+        "station": "Cutty Sark (for Maritime Greenwich) DLR Station",
+        "line": "dlr",
+        "lat": 50.32124438018939,
+        "lang": 0.48391345628741705
+    },
+    {
+        "stationId": "940GZZDLCYP",
+        "station": "Cyprus DLR Station",
+        "line": "dlr",
+        "lat": 50.396153573351974,
+        "lang": 0.806465183582339
+    },
+    {
+        "stationId": "940GZZDLDEP",
+        "station": "Deptford Bridge DLR Station",
+        "line": "dlr",
+        "lat": 50.290096565840756,
+        "lang": 0.4838042861385761
+    },
+    {
+        "stationId": "940GZZDLDEV",
+        "station": "Devons Road DLR Station",
+        "line": "dlr",
+        "lat": 50.546162875005145,
+        "lang": 0.48391342163085943
+    },
+    {
+        "stationId": "940GZZDLEIN",
+        "station": "East India DLR Station",
+        "line": "dlr",
+        "lat": 50.48088593014037,
+        "lang": 0.557384490966797
+    },
+    {
+        "stationId": "940GZZDLELV",
+        "station": "Elverson Road DLR Station",
+        "line": "dlr",
+        "lat": 50.275166780978836,
+        "lang": 0.48398962705359155
+    },
+    {
+        "stationId": "940GZZDLGAL",
+        "station": "Gallions Reach DLR Station",
+        "line": "dlr",
+        "lat": 50.38187722115655,
+        "lang": 0.8063275128934101
+    },
+    {
+        "stationId": "940GZZDLGRE",
+        "station": "Greenwich DLR Station",
+        "line": "dlr",
+        "lat": 50.30479644150097,
+        "lang": 0.4837348144956178
+    },
+    {
+        "stationId": "940GZZDLHEQ",
+        "station": "Heron Quays DLR Station",
+        "line": "dlr",
+        "lat": 50.40867978984146,
+        "lang": 0.4837348144956178
+    },
+    {
+        "stationId": "940GZZDLISL",
+        "station": "Island Gardens DLR Station",
+        "line": "dlr",
+        "lat": 50.34774294268491,
+        "lang": 0.4842444396115653
+    },
+    {
+        "stationId": "940GZZDLKGV",
+        "station": "King George V DLR Station",
+        "line": "dlr",
+        "lat": 50.367738855875366,
+        "lang": 0.7130661166741306
+    },
+    {
+        "stationId": "940GZZDLLCA",
+        "station": "London City Airport DLR Station",
+        "line": "dlr",
+        "lat": 50.38366453051902,
+        "lang": 0.7130661166741306
+    },
+    {
+        "stationId": "940GZZDLLDP",
+        "station": "Langdon Park DLR Station",
+        "line": "dlr",
+        "lat": 50.53242437209401,
+        "lang": 0.48398962705359155
+    },
+    {
+        "stationId": "940GZZDLLEW",
+        "station": "Lewisham DLR Station",
+        "line": "dlr",
+        "lat": 50.26050793313571,
+        "lang": 0.483480001937644
+    },
+    {
+        "stationId": "940GZZDLLIM",
+        "station": "Limehouse DLR Station",
+        "line": "dlr",
+        "lat": 50.48105212161912,
+        "lang": 0.3881801052545742
+    },
+    {
+        "stationId": "940GZZDLMUD",
+        "station": "Mudchute DLR Station",
+        "line": "dlr",
+        "lat": 50.36254665583212,
+        "lang": 0.48408508300781256
+    },
+    {
+        "stationId": "940GZZDLPDK",
+        "station": "Pontoon Dock DLR Station",
+        "line": "dlr",
+        "lat": 50.40512596543837,
+        "lang": 0.7130813598632812
+    },
+    {
+        "stationId": "940GZZDLPOP",
+        "station": "Poplar DLR Station",
+        "line": "dlr",
+        "lat": 50.48080440825986,
+        "lang": 0.48377773677398933
+    },
+    {
+        "stationId": "940GZZDLPRE",
+        "station": "Prince Regent DLR Station",
+        "line": "dlr",
+        "lat": 50.44405965229308,
+        "lang": 0.7906723022460939
+    },
+    {
+        "stationId": "940GZZDLPUD",
+        "station": "Pudding Mill Lane DLR Station",
+        "line": "dlr",
+        "lat": 50.60960662744138,
+        "lang": 0.5448532104492189
+    },
+    {
+        "stationId": "940GZZDLRAL",
+        "station": "Royal Albert DLR Station",
+        "line": "dlr",
+        "lat": 50.42350315436955,
+        "lang": 0.8057785034179689
+    },
+    {
+        "stationId": "940GZZDLRVC",
+        "station": "Royal Victoria DLR Station",
+        "line": "dlr",
+        "lat": 50.480995164259724,
+        "lang": 0.6825256347656251
+    },
+    {
+        "stationId": "940GZZDLSHA",
+        "station": "Shadwell DLR Station",
+        "line": "dlr",
+        "lat": 50.481221090587496,
+        "lang": 0.35508905833467447
+    },
+    {
+        "stationId": "940GZZDLSHS",
+        "station": "Stratford High Street DLR Station",
+        "line": "dlr",
+        "lat": 50.61966250388616,
+        "lang": 0.6046850993834241
+    },
+    {
+        "stationId": "940GZZDLSIT",
+        "station": "Stratford International DLR Station",
+        "line": "dlr",
+        "lat": 50.676469517560044,
+        "lang": 0.529788369190758
+    },
+    {
+        "stationId": "940GZZDLSOQ",
+        "station": "South Quay DLR Station",
+        "line": "dlr",
+        "lat": 50.39323219301247,
+        "lang": 0.4837394226369263
+    },
+    {
+        "stationId": "940GZZDLSTD",
+        "station": "Stratford DLR Station",
+        "line": "dlr",
+        "lat": 50.645012285235985,
+        "lang": 0.6041475710158474
+    },
+    {
+        "stationId": "940GZZDLSTL",
+        "station": "Star Lane DLR Station",
+        "line": "dlr",
+        "lat": 50.529785058910285,
+        "lang": 0.6042436881172852
+    },
+    {
+        "stationId": "940GZZDLTWG",
+        "station": "Tower Gateway DLR Station",
+        "line": "dlr",
+        "lat": 50.463514493730756,
+        "lang": 0.2748298645019532
+    },
+    {
+        "stationId": "940GZZDLWFE",
+        "station": "Westferry DLR Station",
+        "line": "dlr",
+        "lat": 50.48088593014037,
+        "lang": 0.42022705078125006
+    },
+    {
+        "stationId": "940GZZDLWHM",
+        "station": "West Ham DLR Station",
+        "line": "dlr",
+        "lat": 50.57037315109801,
+        "lang": 0.604076385498047
+    },
+    {
+        "stationId": "940GZZDLWIQ",
+        "station": "West India Quay DLR Station",
+        "line": "dlr",
+        "lat": 50.45805045864738,
+        "lang": 0.4835700988769532
+    },
+    {
+        "stationId": "940GZZDLWLA",
+        "station": "Woolwich Arsenal DLR Station",
+        "line": "dlr",
+        "lat": 50.3287861741253,
+        "lang": 0.7133809498038169
+    },
+    {
+        "stationId": "940GZZDLWSV",
+        "station": "West Silvertown DLR Station",
+        "line": "dlr",
+        "lat": 50.43148625882513,
+        "lang": 0.7038116455078125
+    }
+]

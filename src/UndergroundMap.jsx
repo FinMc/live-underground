@@ -13,6 +13,28 @@ const bounds = [
   [50, -1],
   [51, 1],
 ];
+
+const colours = {
+  bakerloo: "#b06010",
+  circle: "#fbd200",
+  central: "#e64e20",
+  elizabeth: "#796d9e",
+  district: "#4a8740",
+  dlr: "#5bb3b0",
+  hammersmith_city: "#e984a1",
+  jubilee: "#949ca1",
+  metropolitan: "#9a3e5e",
+  northern: "#000000",
+  piccadilly: "#1c3f94",
+  victoria: "#419edc",
+};
+
+const getTrainNextStation = (train) => {
+  const nextStation = train.points.find(
+    (station) => station.timeToStation > train.currentTime
+  );
+  return nextStation?.stationName;
+};
 export const UndergroundMap = () => {
   const mapRef = useRef(null);
   const dispatch = useDispatch();
@@ -43,7 +65,7 @@ export const UndergroundMap = () => {
       zoom={3}
       maxZoom={13}
       minZoom={10}
-      // maxBounds={bounds}
+      maxBounds={bounds}
       scrollWheelZoom={true}
       zoomSnap={0}
       style={{ height: "100%", minHeight: "100%" }}
@@ -59,11 +81,15 @@ export const UndergroundMap = () => {
               radius={500}
               pathOptions={{
                 color: "black",
-                fillOpacity: 60,
+                fillOpacity: 0.6,
                 stroke: true,
-                fillColor: "#796D9E",
+                fillColor: colours[currTrain.line.replace("-", "_")],
               }}
-            />
+            >
+              <Tooltip>{`Train-${trainKey} to ${getTrainNextStation(
+                currTrain
+              )}`}</Tooltip>
+            </Circle>
           )
         );
       })}
@@ -77,6 +103,7 @@ const Locator = () => {
   const map = useMapEvents({
     click: (e) => {
       console.log(e.latlng);
+      navigator.clipboard.writeText(JSON.stringify(e.latlng));
     },
   });
 };

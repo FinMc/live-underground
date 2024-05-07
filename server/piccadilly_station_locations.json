@@ -1,0 +1,320 @@
+[
+    {
+        "stationId": "940GZZLUACT",
+        "station": "Acton Town Underground Station",
+        "lat": 50.43072081399731,
+        "lang": -0.6595230102539062
+    },
+    {
+        "stationId": "940GZZLUALP",
+        "station": "Alperton Underground Station",
+        "lat": 50.63519973370705,
+        "lang": -0.6735992431640626
+    },
+    {
+        "stationId": "940GZZLUASG",
+        "station": "Arnos Grove Underground Station",
+        "lat": 50.82494094535239,
+        "lang": 0.2545267685156328
+    },
+    {
+        "stationId": "940GZZLUASL",
+        "station": "Arsenal Underground Station",
+        "lat": 50.70483918749332,
+        "lang": 0.20560649825843935
+    },
+    {
+        "stationId": "940GZZLUBDS",
+        "station": "Bounds Green Underground Station",
+        "lat": 50.8093726271646,
+        "lang": 0.2538020237710548
+    },
+    {
+        "stationId": "940GZZLUBOS",
+        "station": "Boston Manor Underground Station",
+        "lat": 50.41529993301997,
+        "lang": -0.7731628417968751
+    },
+    {
+        "stationId": "940GZZLUBSC",
+        "station": "Barons Court Underground Station",
+        "lat": 50.43101452956058,
+        "lang": -0.41727831848375363
+    },
+    {
+        "stationId": "940GZZLUCAR",
+        "station": "Caledonian Road Underground Station",
+        "lat": 50.67315225323943,
+        "lang": 0.15556010582765456
+    },
+    {
+        "stationId": "940GZZLUCGN",
+        "station": "Covent Garden Underground Station",
+        "lat": 50.50895079435835,
+        "lang": -0.017166137695312503
+    },
+    {
+        "stationId": "940GZZLUCKS",
+        "station": "Cockfosters Underground Station",
+        "lat": 50.87230079583081,
+        "lang": 0.25488914088790177
+    },
+    {
+        "stationId": "940GZZLUEAE",
+        "station": "Eastcote Underground Station",
+        "lat": 50.76253731417227,
+        "lang": -0.7160572917800346
+    },
+    {
+        "stationId": "940GZZLUECM",
+        "station": "Ealing Common Underground Station",
+        "lat": 50.462092724314935,
+        "lang": -0.673473185693101
+    },
+    {
+        "stationId": "940GZZLUECT",
+        "station": "Earl's Court Underground Station",
+        "lat": 50.43093951378226,
+        "lang": -0.3537940979003906
+    },
+    {
+        "stationId": "940GZZLUFPK",
+        "station": "Finsbury Park Underground Station",
+        "lat": 50.726435863333684,
+        "lang": 0.24021589662714948
+    },
+    {
+        "stationId": "940GZZLUGPK",
+        "station": "Green Park Underground Station",
+        "lat": 50.48444271297497,
+        "lang": -0.16479905329700453
+    },
+    {
+        "stationId": "940GZZLUGTR",
+        "station": "Gloucester Road Underground Station",
+        "lat": 50.43101452956058,
+        "lang": -0.303295829522765
+    },
+    {
+        "stationId": "940GZZLUHBN",
+        "station": "Holborn Underground Station",
+        "lat": 50.52575401972823,
+        "lang": 0.008769257993677117
+    },
+    {
+        "stationId": "940GZZLUHGD",
+        "station": "Hillingdon Underground Station",
+        "lat": 50.783690779299334,
+        "lang": -0.8629417419433595
+    },
+    {
+        "stationId": "940GZZLUHNX",
+        "station": "Hatton Cross Underground Station",
+        "lat": 50.34896578114507,
+        "lang": -0.8771896362304689
+    },
+    {
+        "stationId": "940GZZLUHPC",
+        "station": "Hyde Park Corner Underground Station",
+        "lat": 50.47726146610164,
+        "lang": -0.18838460765605583
+    },
+    {
+        "stationId": "940GZZLUHR4",
+        "station": "Heathrow Terminal 4 Underground Station",
+        "lat": 50.278423689965614,
+        "lang": -0.8945463115973019
+    },
+    {
+        "stationId": "940GZZLUHR5",
+        "station": "Heathrow Terminal 5 Underground Station",
+        "lat": 50.27907504502559,
+        "lang": -0.9475473236563259
+    },
+    {
+        "stationId": "940GZZLUHRC",
+        "station": "Heathrow Terminals 2 & 3 Underground Station",
+        "lat": 50.337335233432555,
+        "lang": -0.895565561829197
+    },
+    {
+        "stationId": "940GZZLUHSD",
+        "station": "Hammersmith (Dist&Picc Line) Underground Station",
+        "lat": 50.43072081399731,
+        "lang": -0.45387268066406256
+    },
+    {
+        "stationId": "940GZZLUHWC",
+        "station": "Hounslow Central Underground Station",
+        "lat": 50.37826581146502,
+        "lang": -0.8307161101224626
+    },
+    {
+        "stationId": "940GZZLUHWE",
+        "station": "Hounslow East Underground Station",
+        "lat": 50.390947554769674,
+        "lang": -0.8122606957448554
+    },
+    {
+        "stationId": "940GZZLUHWT",
+        "station": "Hounslow West Underground Station",
+        "lat": 50.36546638094199,
+        "lang": -0.8507841335233857
+    },
+    {
+        "stationId": "940GZZLUHWY",
+        "station": "Holloway Road Underground Station",
+        "lat": 50.68906305486583,
+        "lang": 0.18127441406250003
+    },
+    {
+        "stationId": "940GZZLUICK",
+        "station": "Ickenham Underground Station",
+        "lat": 50.78340689945906,
+        "lang": -0.829859662828838
+    },
+    {
+        "stationId": "940GZZLUKNB",
+        "station": "Knightsbridge Underground Station",
+        "lat": 50.45153238468312,
+        "lang": -0.22923072272160955
+    },
+    {
+        "stationId": "940GZZLUKSX",
+        "station": "King's Cross St. Pancras Underground Station",
+        "lat": 50.60514688440338,
+        "lang": 0.0612894167014444
+    },
+    {
+        "stationId": "940GZZLULSQ",
+        "station": "Leicester Square Underground Station",
+        "lat": 50.49412326838094,
+        "lang": -0.04115295315802792
+    },
+    {
+        "stationId": "940GZZLUMRH",
+        "station": "Manor House Underground Station",
+        "lat": 50.751974989219875,
+        "lang": 0.254111069089471
+    },
+    {
+        "stationId": "940GZZLUNEN",
+        "station": "North Ealing Underground Station",
+        "lat": 50.520923949522896,
+        "lang": -0.6735447228731408
+    },
+    {
+        "stationId": "940GZZLUNFD",
+        "station": "Northfields Underground Station",
+        "lat": 50.43091352694892,
+        "lang": -0.7387745073964359
+    },
+    {
+        "stationId": "940GZZLUOAK",
+        "station": "Oakwood Underground Station",
+        "lat": 50.856473866348935,
+        "lang": 0.2545314564125434
+    },
+    {
+        "stationId": "940GZZLUOSY",
+        "station": "Osterley Underground Station",
+        "lat": 50.40020229361594,
+        "lang": -0.7973670959472657
+    },
+    {
+        "stationId": "940GZZLUPCC",
+        "station": "Piccadilly Circus Underground Station",
+        "lat": 50.48445705933697,
+        "lang": -0.08424237723319462
+    },
+    {
+        "stationId": "940GZZLUPKR",
+        "station": "Park Royal Underground Station",
+        "lat": 50.530997857429924,
+        "lang": -0.6732559204101564
+    },
+    {
+        "stationId": "940GZZLURSM",
+        "station": "Ruislip Manor Underground Station",
+        "lat": 50.7780467288022,
+        "lang": -0.7390022277832032
+    },
+    {
+        "stationId": "940GZZLURSP",
+        "station": "Ruislip Underground Station",
+        "lat": 50.78347371303078,
+        "lang": -0.7748794555664062
+    },
+    {
+        "stationId": "940GZZLURSQ",
+        "station": "Russell Square Underground Station",
+        "lat": 50.576605467485045,
+        "lang": 0.061382294092902086
+    },
+    {
+        "stationId": "940GZZLURYL",
+        "station": "Rayners Lane Underground Station",
+        "lat": 50.75079375029077,
+        "lang": -0.6957435607910157
+    },
+    {
+        "stationId": "940GZZLUSEA",
+        "station": "South Ealing Underground Station",
+        "lat": 50.43126756156562,
+        "lang": -0.7096481323242189
+    },
+    {
+        "stationId": "940GZZLUSGT",
+        "station": "Southgate Underground Station",
+        "lat": 50.84009382168376,
+        "lang": 0.25457382202148443
+    },
+    {
+        "stationId": "940GZZLUSHH",
+        "station": "South Harrow Underground Station",
+        "lat": 50.71841701115054,
+        "lang": -0.6735992431640626
+    },
+    {
+        "stationId": "940GZZLUSKS",
+        "station": "South Kensington Underground Station",
+        "lat": 50.43087037378626,
+        "lang": -0.27411649659083054
+    },
+    {
+        "stationId": "940GZZLUSUH",
+        "station": "Sudbury Hill Underground Station",
+        "lat": 50.691020557004784,
+        "lang": -0.6734275817871095
+    },
+    {
+        "stationId": "940GZZLUSUT",
+        "station": "Sudbury Town Underground Station",
+        "lat": 50.66262878107565,
+        "lang": -0.6732559204101564
+    },
+    {
+        "stationId": "940GZZLUTNG",
+        "station": "Turnham Green Underground Station",
+        "lat": 50.43100744719207,
+        "lang": -0.5798155427487696
+    },
+    {
+        "stationId": "940GZZLUTPN",
+        "station": "Turnpike Lane Underground Station",
+        "lat": 50.777714539148334,
+        "lang": 0.2550775588517729
+    },
+    {
+        "stationId": "940GZZLUUXB",
+        "station": "Uxbridge Underground Station",
+        "lat": 50.78282250817873,
+        "lang": -0.9049987792968751
+    },
+    {
+        "stationId": "940GZZLUWOG",
+        "station": "Wood Green Underground Station",
+        "lat": 50.79332073354995,
+        "lang": 0.2541555435721277
+    }
+]

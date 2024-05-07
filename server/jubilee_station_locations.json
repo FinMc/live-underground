@@ -1,0 +1,164 @@
+[
+    {
+        "stationId": "940GZZLUBMY",
+        "station": "Bermondsey Underground Station",
+        "lat": 50.398814328593424,
+        "lang": 0.2374642818033568
+    },
+    {
+        "stationId": "940GZZLUBND",
+        "station": "Bond Street Underground Station",
+        "lat": 50.5345581174234,
+        "lang": -0.1899746396349178
+    },
+    {
+        "stationId": "940GZZLUBST",
+        "station": "Baker Street Underground Station",
+        "lat": 50.57998039797192,
+        "lang": -0.1896664644932922
+    },
+    {
+        "stationId": "940GZZLUCGT",
+        "station": "Canning Town Underground Station",
+        "lat": 50.481052555011274,
+        "lang": 0.586626717268084
+    },
+    {
+        "stationId": "940GZZLUCPK",
+        "station": "Canons Park Underground Station",
+        "lat": 50.7931187689846,
+        "lang": -0.37988123462002094
+    },
+    {
+        "stationId": "940GZZLUCWR",
+        "station": "Canada Water Underground Station",
+        "lat": 50.3913035348874,
+        "lang": 0.33663822832259443
+    },
+    {
+        "stationId": "940GZZLUCYF",
+        "station": "Canary Wharf Underground Station",
+        "lat": 50.42159907947199,
+        "lang": 0.46507011928282893
+    },
+    {
+        "stationId": "940GZZLUDOH",
+        "station": "Dollis Hill Underground Station",
+        "lat": 50.72472027822822,
+        "lang": -0.33954620361328125
+    },
+    {
+        "stationId": "940GZZLUFYR",
+        "station": "Finchley Road Underground Station",
+        "lat": 50.661592720140135,
+        "lang": -0.24050120759937735
+    },
+    {
+        "stationId": "940GZZLUGPK",
+        "station": "Green Park Underground Station",
+        "lat": 50.48467708914175,
+        "lang": -0.16465846061330952
+    },
+    {
+        "stationId": "940GZZLUKBN",
+        "station": "Kilburn Underground Station",
+        "lat": 50.70130630738206,
+        "lang": -0.30236554321621645
+    },
+    {
+        "stationId": "940GZZLUKBY",
+        "station": "Kingsbury Underground Station",
+        "lat": 50.76392981666758,
+        "lang": -0.37970214511809264
+    },
+    {
+        "stationId": "940GZZLULNB",
+        "station": "London Bridge Underground Station",
+        "lat": 50.42161851801282,
+        "lang": 0.16184990001058444
+    },
+    {
+        "stationId": "940GZZLUNDN",
+        "station": "Neasden Underground Station",
+        "lat": 50.73634649439402,
+        "lang": -0.3573989868164063
+    },
+    {
+        "stationId": "940GZZLUNGW",
+        "station": "North Greenwich Underground Station",
+        "lat": 50.424706174038526,
+        "lang": 0.5578994750976564
+    },
+    {
+        "stationId": "940GZZLUQBY",
+        "station": "Queensbury Underground Station",
+        "lat": 50.778263820264364,
+        "lang": -0.37954330444335943
+    },
+    {
+        "stationId": "940GZZLUSJW",
+        "station": "St. John's Wood Underground Station",
+        "lat": 50.608517250113955,
+        "lang": -0.18917083740234378
+    },
+    {
+        "stationId": "940GZZLUSTD",
+        "station": "Stratford Underground Station",
+        "lat": 50.64510651477012,
+        "lang": 0.6044197082519532
+    },
+    {
+        "stationId": "940GZZLUSTM",
+        "station": "Stanmore Underground Station",
+        "lat": 50.80745343945335,
+        "lang": -0.3793716430664063
+    },
+    {
+        "stationId": "940GZZLUSWC",
+        "station": "Swiss Cottage Underground Station",
+        "lat": 50.62006336641878,
+        "lang": -0.18951416015625003
+    },
+    {
+        "stationId": "940GZZLUSWK",
+        "station": "Southwark Underground Station",
+        "lat": 50.365845330727666,
+        "lang": 0.018067058687520902
+    },
+    {
+        "stationId": "940GZZLUWHM",
+        "station": "West Ham Underground Station",
+        "lat": 50.581421795025626,
+        "lang": 0.5868258950898797
+    },
+    {
+        "stationId": "940GZZLUWHP",
+        "station": "West Hampstead Underground Station",
+        "lat": 50.67448797148435,
+        "lang": -0.26075363159179693
+    },
+    {
+        "stationId": "940GZZLUWIG",
+        "station": "Willesden Green Underground Station",
+        "lat": 50.7134814954792,
+        "lang": -0.3212180561510003
+    },
+    {
+        "stationId": "940GZZLUWLO",
+        "station": "Waterloo Underground Station",
+        "lat": 50.38203499145319,
+        "lang": -0.0556182861328125
+    },
+    {
+        "stationId": "940GZZLUWSM",
+        "station": "Westminster Underground Station",
+        "lat": 50.43236103776132,
+        "lang": -0.08274078369140626
+    },
+    {
+        "stationId": "940GZZLUWYP",
+        "station": "Wembley Park Underground Station",
+        "lat": 50.74329911380408,
+        "lang": -0.3690719604492188
+    }
+]

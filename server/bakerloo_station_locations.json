@@ -1,0 +1,177 @@
+[
+    {
+        "stationId": "940GZZLUBST",
+        "station": "Baker Street Underground Station",
+        "line": "bakerloo",
+        "lat": 50.58018458537648,
+        "lang": -0.18985748291015628
+    },
+    {
+        "stationId": "940GZZLUCHX",
+        "station": "Charing Cross Underground Station",
+        "line": "bakerloo",
+        "lat": 50.456929223664325,
+        "lang": -0.04107522505287564
+    },
+    {
+        "stationId": "940GZZLUEAC",
+        "station": "Elephant & Castle Underground Station",
+        "line": "bakerloo",
+        "lat": 50.29208108269716,
+        "lang": -0.008926391601562502
+    },
+    {
+        "stationId": "940GZZLUEMB",
+        "station": "Embankment Underground Station",
+        "line": "bakerloo",
+        "lat": 50.42317505279245,
+        "lang": -0.026779174804687503
+    },
+    {
+        "stationId": "940GZZLUERB",
+        "station": "Edgware Road (Bakerloo) Underground Station",
+        "line": "bakerloo",
+        "lat": 50.60198045643598,
+        "lang": -0.31723022460937506
+    },
+    {
+        "stationId": "940GZZLUHAW",
+        "station": "Harrow & Wealdstone Underground Station",
+        "line": "bakerloo",
+        "lat": 50.790864086409265,
+        "lang": -0.4799662797701387
+    },
+    {
+        "stationId": "940GZZLUHSN",
+        "station": "Harlesden Underground Station",
+        "line": "bakerloo",
+        "lat": 50.677207546965484,
+        "lang": -0.4821968078613282
+    },
+    {
+        "stationId": "940GZZLUKEN",
+        "station": "Kenton Underground Station",
+        "line": "bakerloo",
+        "lat": 50.76621371995749,
+        "lang": -0.4821968078613282
+    },
+    {
+        "stationId": "940GZZLUKPK",
+        "station": "Kilburn Park Underground Station",
+        "line": "bakerloo",
+        "lat": 50.616142361710075,
+        "lang": -0.47515869140625006
+    },
+    {
+        "stationId": "940GZZLUKSL",
+        "station": "Kensal Green Underground Station",
+        "line": "bakerloo",
+        "lat": 50.654031715602784,
+        "lang": -0.4816818237304688
+    },
+    {
+        "stationId": "940GZZLULBN",
+        "station": "Lambeth North Underground Station",
+        "line": "bakerloo",
+        "lat": 50.34655586531925,
+        "lang": -0.026607513427734375
+    },
+    {
+        "stationId": "940GZZLUMVL",
+        "station": "Maida Vale Underground Station",
+        "line": "bakerloo",
+        "lat": 50.605902641613284,
+        "lang": -0.4595375061035157
+    },
+    {
+        "stationId": "940GZZLUMYB",
+        "station": "Marylebone Underground Station",
+        "line": "bakerloo",
+        "lat": 50.60198045643598,
+        "lang": -0.24959564208984378
+    },
+    {
+        "stationId": "940GZZLUNWY",
+        "station": "North Wembley Underground Station",
+        "line": "bakerloo",
+        "lat": 50.712330293574844,
+        "lang": -0.4821968078613282
+    },
+    {
+        "stationId": "940GZZLUOXC",
+        "station": "Oxford Circus Underground Station",
+        "line": "bakerloo",
+        "lat": 50.52630553353521,
+        "lang": -0.12393951416015626
+    },
+    {
+        "stationId": "940GZZLUPAC",
+        "station": "Paddington Underground Station",
+        "line": "bakerloo",
+        "lat": 50.601762547673964,
+        "lang": -0.36529541015625006
+    },
+    {
+        "stationId": "940GZZLUPCC",
+        "station": "Piccadilly Circus Underground Station",
+        "line": "bakerloo",
+        "lat": 50.48427207044581,
+        "lang": -0.08394241333007814
+    },
+    {
+        "stationId": "940GZZLUQPS",
+        "station": "Queen's Park Underground Station",
+        "line": "bakerloo",
+        "lat": 50.64292937930156,
+        "lang": -0.4816818237304688
+    },
+    {
+        "stationId": "940GZZLURGP",
+        "station": "Regent's Park Underground Station",
+        "line": "bakerloo",
+        "lat": 50.55554310623556,
+        "lang": -0.15123367309570315
+    },
+    {
+        "stationId": "940GZZLUSGP",
+        "station": "Stonebridge Park Underground Station",
+        "line": "bakerloo",
+        "lat": 50.68862804329819,
+        "lang": -0.48202514648437506
+    },
+    {
+        "stationId": "940GZZLUSKT",
+        "station": "South Kenton Underground Station",
+        "line": "bakerloo",
+        "lat": 50.7243942679658,
+        "lang": -0.4823684692382813
+    },
+    {
+        "stationId": "940GZZLUWJN",
+        "station": "Willesden Junction Underground Station",
+        "line": "bakerloo",
+        "lat": 50.665675464535816,
+        "lang": -0.48185348510742193
+    },
+    {
+        "stationId": "940GZZLUWKA",
+        "station": "Warwick Avenue Underground Station",
+        "line": "bakerloo",
+        "lat": 50.601762547673964,
+        "lang": -0.4351615905761719
+    },
+    {
+        "stationId": "940GZZLUWLO",
+        "station": "Waterloo Underground Station",
+        "line": "bakerloo",
+        "lat": 50.38149886482268,
+        "lang": -0.027126795977434618
+    },
+    {
+        "stationId": "940GZZLUWYC",
+        "station": "Wembley Central Underground Station",
+        "line": "bakerloo",
+        "lat": 50.70048066591402,
+        "lang": -0.4816818237304688
+    }
+]

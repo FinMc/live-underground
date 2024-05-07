@@ -1,0 +1,314 @@
+[
+    {
+        "stationId": "940GZZBPSUST",
+        "station": "Battersea Power Station Underground Station",
+        "lat": 50.30410148807132,
+        "lang": -0.23082377389132883
+    },
+    {
+        "stationId": "940GZZLUACY",
+        "station": "Archway Underground Station",
+        "lat": 50.74427674312445,
+        "lang": 0.05664825439453126
+    },
+    {
+        "stationId": "940GZZLUAGL",
+        "station": "Angel Underground Station",
+        "lat": 50.59759207423555,
+        "lang": 0.11061556901680093
+    },
+    {
+        "stationId": "940GZZLUBLM",
+        "station": "Balham Underground Station",
+        "lat": 50.19413505775808,
+        "lang": -0.17600296675157837
+    },
+    {
+        "stationId": "940GZZLUBNK",
+        "station": "Bank Underground Station",
+        "lat": 50.492317707114395,
+        "lang": 0.16189081722671975
+    },
+    {
+        "stationId": "940GZZLUBOR",
+        "station": "Borough Underground Station",
+        "lat": 50.35520908505308,
+        "lang": 0.08995056152343751
+    },
+    {
+        "stationId": "940GZZLUBTK",
+        "station": "Burnt Oak Underground Station",
+        "lat": 50.7991991087659,
+        "lang": -0.2198394727774078
+    },
+    {
+        "stationId": "940GZZLUBTX",
+        "station": "Brent Cross Underground Station",
+        "lat": 50.75380089113034,
+        "lang": -0.1474358916112695
+    },
+    {
+        "stationId": "940GZZLUBZP",
+        "station": "Belsize Park Underground Station",
+        "lat": 50.683298824238214,
+        "lang": -0.03656387329101563
+    },
+    {
+        "stationId": "940GZZLUCFM",
+        "station": "Chalk Farm Underground Station",
+        "lat": 50.66991872993413,
+        "lang": -0.015106201171875002
+    },
+    {
+        "stationId": "940GZZLUCHX",
+        "station": "Charing Cross Underground Station",
+        "lat": 50.4570669873206,
+        "lang": -0.041198732598386474
+    },
+    {
+        "stationId": "940GZZLUCND",
+        "station": "Colindale Underground Station",
+        "lat": 50.78434197205871,
+        "lang": -0.19638061523437503
+    },
+    {
+        "stationId": "940GZZLUCPC",
+        "station": "Clapham Common Underground Station",
+        "lat": 50.21788638545399,
+        "lang": -0.1385307312011719
+    },
+    {
+        "stationId": "940GZZLUCPN",
+        "station": "Clapham North Underground Station",
+        "lat": 50.230955666207954,
+        "lang": -0.11741638183593751
+    },
+    {
+        "stationId": "940GZZLUCPS",
+        "station": "Clapham South Underground Station",
+        "lat": 50.20712075929137,
+        "lang": -0.15569686889648438
+    },
+    {
+        "stationId": "940GZZLUCSD",
+        "station": "Colliers Wood Underground Station",
+        "lat": 50.1630442686333,
+        "lang": -0.22453308105468753
+    },
+    {
+        "stationId": "940GZZLUCTN",
+        "station": "Camden Town Underground Station",
+        "lat": 50.65229034614585,
+        "lang": -0.007553100585937501
+    },
+    {
+        "stationId": "940GZZLUEAC",
+        "station": "Elephant & Castle Underground Station",
+        "lat": 50.29208108269716,
+        "lang": -0.009269714355468752
+    },
+    {
+        "stationId": "940GZZLUEFY",
+        "station": "East Finchley Underground Station",
+        "lat": 50.78034127004858,
+        "lang": 0.05700041101551535
+    },
+    {
+        "stationId": "940GZZLUEGW",
+        "station": "Edgware Underground Station",
+        "lat": 50.82046895162472,
+        "lang": -0.2535438537597657
+    },
+    {
+        "stationId": "940GZZLUEMB",
+        "station": "Embankment Underground Station",
+        "lat": 50.43247038399189,
+        "lang": -0.04137039184570313
+    },
+    {
+        "stationId": "940GZZLUEUS",
+        "station": "Euston Underground Station",
+        "lat": 50.6214792044529,
+        "lang": -0.017166137695312503
+    },
+    {
+        "stationId": "940GZZLUFYC",
+        "station": "Finchley Central Underground Station",
+        "lat": 50.79638740224723,
+        "lang": 0.05664825439453126
+    },
+    {
+        "stationId": "940GZZLUGDG",
+        "station": "Goodge Street Underground Station",
+        "lat": 50.545131138419414,
+        "lang": -0.04123032081053247
+    },
+    {
+        "stationId": "940GZZLUGGN",
+        "station": "Golders Green Underground Station",
+        "lat": 50.73869616020633,
+        "lang": -0.12400286401481832
+    },
+    {
+        "stationId": "940GZZLUHBT",
+        "station": "High Barnet Underground Station",
+        "lat": 50.86674217793662,
+        "lang": 0.0568401717700029
+    },
+    {
+        "stationId": "940GZZLUHCL",
+        "station": "Hendon Central Underground Station",
+        "lat": 50.77027765148451,
+        "lang": -0.17401758974520123
+    },
+    {
+        "stationId": "940GZZLUHGT",
+        "station": "Highgate Underground Station",
+        "lat": 50.76480224387227,
+        "lang": 0.056819915771484375
+    },
+    {
+        "stationId": "940GZZLUHTD",
+        "station": "Hampstead Underground Station",
+        "lat": 50.72330755070861,
+        "lang": -0.09956359863281251
+    },
+    {
+        "stationId": "940GZZLUKNG",
+        "station": "Kennington Underground Station",
+        "lat": 50.291203714476524,
+        "lang": -0.04102706909179688
+    },
+    {
+        "stationId": "940GZZLUKSH",
+        "station": "Kentish Town Underground Station",
+        "lat": 50.69884974878023,
+        "lang": 0.04617691040039063
+    },
+    {
+        "stationId": "940GZZLUKSX",
+        "station": "King's Cross St. Pancras Underground Station",
+        "lat": 50.604607436952726,
+        "lang": 0.0612555933711878
+    },
+    {
+        "stationId": "940GZZLULNB",
+        "station": "London Bridge Underground Station",
+        "lat": 50.42155256167048,
+        "lang": 0.16193433310094374
+    },
+    {
+        "stationId": "940GZZLULSQ",
+        "station": "Leicester Square Underground Station",
+        "lat": 50.49388301785976,
+        "lang": -0.04137039184570313
+    },
+    {
+        "stationId": "940GZZLUMDN",
+        "station": "Morden Underground Station",
+        "lat": 50.10646432434668,
+        "lang": -0.31189120120619146
+    },
+    {
+        "stationId": "940GZZLUMGT",
+        "station": "Moorgate Underground Station",
+        "lat": 50.555652167714996,
+        "lang": 0.16204833984375003
+    },
+    {
+        "stationId": "940GZZLUMHL",
+        "station": "Mill Hill East Underground Station",
+        "lat": 50.827409075117785,
+        "lang": 0.023689270019531253
+    },
+    {
+        "stationId": "940GZZLUMTC",
+        "station": "Mornington Crescent Underground Station",
+        "lat": 50.633131021375156,
+        "lang": -0.01665115356445313
+    },
+    {
+        "stationId": "940GZZLUODS",
+        "station": "Old Street Underground Station",
+        "lat": 50.58879516018368,
+        "lang": 0.16136169433593753
+    },
+    {
+        "stationId": "940GZZLUOVL",
+        "station": "Oval Underground Station",
+        "lat": 50.26355833397697,
+        "lang": -0.06746292114257814
+    },
+    {
+        "stationId": "940GZZLUSKW",
+        "station": "Stockwell Underground Station",
+        "lat": 50.251046816149206,
+        "lang": -0.08617401123046875
+    },
+    {
+        "stationId": "940GZZLUSWN",
+        "station": "South Wimbledon Underground Station",
+        "lat": 50.147426381905575,
+        "lang": -0.24890899658203128
+    },
+    {
+        "stationId": "940GZZLUTAW",
+        "station": "Totteridge & Whetstone Underground Station",
+        "lat": 50.851239228982436,
+        "lang": 0.05656523807507253
+    },
+    {
+        "stationId": "940GZZLUTBC",
+        "station": "Tooting Bec Underground Station",
+        "lat": 50.1860218789041,
+        "lang": -0.18848419189453128
+    },
+    {
+        "stationId": "940GZZLUTBY",
+        "station": "Tooting Broadway Underground Station",
+        "lat": 50.17469936581037,
+        "lang": -0.20599365234375003
+    },
+    {
+        "stationId": "940GZZLUTCR",
+        "station": "Tottenham Court Road Underground Station",
+        "lat": 50.534053073289705,
+        "lang": -0.04085540771484376
+    },
+    {
+        "stationId": "940GZZLUTFP",
+        "station": "Tufnell Park Underground Station",
+        "lat": 50.71048238362443,
+        "lang": 0.05664825439453126
+    },
+    {
+        "stationId": "940GZZLUWFN",
+        "station": "West Finchley Underground Station",
+        "lat": 50.82164400794979,
+        "lang": 0.056787914511762246
+    },
+    {
+        "stationId": "940GZZLUWLO",
+        "station": "Waterloo Underground Station",
+        "lat": 50.381925528780215,
+        "lang": -0.04137039184570313
+    },
+    {
+        "stationId": "940GZZLUWOP",
+        "station": "Woodside Park Underground Station",
+        "lat": 50.836082778824434,
+        "lang": 0.05699157714843751
+    },
+    {
+        "stationId": "940GZZLUWRR",
+        "station": "Warren Street Underground Station",
+        "lat": 50.57898551969881,
+        "lang": -0.04085540771484376
+    },
+    {
+        "stationId": "940GZZNEUGST",
+        "station": "Nine Elms Underground Station",
+        "lat": 50.303923970309896,
+        "lang": -0.18917083740234378
+    }
+]
