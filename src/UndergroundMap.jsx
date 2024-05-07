@@ -93,7 +93,7 @@ export const UndergroundMap = () => {
           )
         );
       })}
-      <ImageOverlay url="/status-map.svg" bounds={bounds} zIndex={-1} />
+      <ImageOverlay url="/new-map.svg" bounds={bounds} zIndex={-1} />
       <Locator />
     </MapContainer>
   );

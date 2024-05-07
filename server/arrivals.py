@@ -13,7 +13,7 @@ def load_station_locations(line):
 lines = ["bakerloo","central", "circle", "district", "dlr", "elizabeth", "hammersmith-city", "jubilee", "metropolitan", "northern", "piccadilly", "victoria"]
 excluded = []
 
-CORS(app)
+cors = CORS(app, resources={r"/tfl/*": {"origins": ['http://localhost:3000','https://live-underground.vercel.app']}})
 @app.route('/tfl/arrivals')
 def get_arrivals():
     # Group arrivals by vehicle ID
