@@ -2,6 +2,10 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 import requests
 import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 
@@ -13,6 +17,8 @@ def load_station_locations(line):
 lines = ["bakerloo","central", "circle", "district", "dlr", "elizabeth", "hammersmith-city", "jubilee", "metropolitan", "northern", "piccadilly", "victoria"]
 excluded = []
 
+app_id = os.getenv('APP_ID')
+
 cors = CORS(app, resources={r"/tfl/*": {"origins": ['http://localhost:3000','https://live-underground.vercel.app']}})
 @app.route('/tfl/arrivals')
 def get_arrivals():
@@ -21,7 +27,7 @@ def get_arrivals():
     for line in lines:
         station_locations = load_station_locations(line)
     # Get the latest data for TFL arrivals on the lines
-        response = requests.get('https://api.tfl.gov.uk/Line/%s/Arrivals' % line)
+        response = requests.get('https://api.tfl.gov.uk/Line/%s/Arrivals?%s' % (line, app_id))
         arrivals = response.json()
 
     
