@@ -2,6 +2,7 @@
   "name": "live-underground",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:5000",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
     "leaflet": "^1.9.4",

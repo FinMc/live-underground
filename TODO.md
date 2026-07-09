@@ -1,4 +1,2 @@
 - Fix map font on external machines
 - Add extra lines
-- Map server urls correctly
-- Deploy to vercel

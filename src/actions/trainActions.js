@@ -3,9 +3,7 @@ export const UPDATE_TRAIN_LOCATIONS = "UPDATE_TRAIN_LOCATIONS";
 
 export const fetchTrains = () => async (dispatch) => {
   try {
-    const response = await fetch(
-      "https://finmac.pythonanywhere.com/tfl/arrivals"
-    );
+    const response = await fetch("/tfl/arrivals");
     const data = await response.json();
     dispatch({ type: FETCH_TRAINS, payload: data });
   } catch (error) {

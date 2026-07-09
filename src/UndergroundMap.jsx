@@ -100,7 +100,7 @@ export const UndergroundMap = () => {
 };
 
 const Locator = () => {
-  const map = useMapEvents({
+  useMapEvents({
     click: (e) => {
       console.log(e.latlng);
       navigator.clipboard.writeText(JSON.stringify(e.latlng));

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "root": "./"
+    },
+    "backend": {
+      "root": "server/",
+      "entrypoint": "arrivals:app"
+    }
+  },
+  "rewrites": [
+    { "source": "/tfl/(.*)", "destination": { "service": "backend" } },
+    { "source": "/(.*)", "destination": { "service": "frontend" } }
+  ]
+}

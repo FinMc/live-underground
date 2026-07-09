@@ -1,4 +1,4 @@
-import { Provider, useDispatch } from "react-redux";
+import { Provider } from "react-redux";
 import "./App.css";
 import { UndergroundMap } from "./UndergroundMap";
 import store from "./store/store";
