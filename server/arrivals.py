@@ -33,14 +33,14 @@ for _line in lines:
 MIN_POINTS_TO_ANIMATE = 2
 
 tfl_app_key = os.getenv('TFL_APP_KEY')
+tfl_params = {'app_key': tfl_app_key} if tfl_app_key else {}
 
 cors = CORS(app, resources={r"/tfl/*": {"origins": ['http://localhost:3000','https://live-underground.vercel.app']}})
 
 def fetch_line_arrivals(line):
-    params = {'app_key': tfl_app_key} if tfl_app_key else {}
     response = requests.get(
         'https://api.tfl.gov.uk/Line/%s/Arrivals' % line,
-        params=params,
+        params=tfl_params,
         timeout=8,
     )
     response.raise_for_status()
@@ -75,7 +75,13 @@ def get_arrivals():
                 lineId = arrival['lineId']
 
                 if vehicle_id not in grouped_arrivals:
-                    grouped_arrivals[vehicle_id] = {'currentLocation': [], 'points': [], "currentTime": 0, "line": lineId}
+                    grouped_arrivals[vehicle_id] = {
+                        'currentLocation': [],
+                        'points': [],
+                        "currentTime": 0,
+                        "line": lineId,
+                        "destinationName": arrival.get('destinationName') or None,
+                    }
 
                 grouped_arrivals[vehicle_id]['points'].append({
                     'naptanId': naptan_id,
@@ -97,6 +103,32 @@ def get_arrivals():
 
     # Return the grouped and sorted arrivals as JSON
     return jsonify(grouped_arrivals)
+
+@app.route('/tfl/line-status')
+def get_line_status():
+    response = requests.get(
+        'https://api.tfl.gov.uk/Line/%s/Status' % ','.join(lines),
+        params=tfl_params,
+        timeout=8,
+    )
+    response.raise_for_status()
+
+    statuses = {}
+    for line in response.json():
+        line_statuses = line.get('lineStatuses', [])
+        if not line_statuses:
+            continue
+        # A line can have several concurrent statuses (e.g. good service on
+        # one branch, part suspended on another) - surface the worst one.
+        worst = min(line_statuses, key=lambda status: status['statusSeverity'])
+        statuses[line['id']] = {
+            'name': line['name'],
+            'statusSeverity': worst['statusSeverity'],
+            'statusSeverityDescription': worst['statusSeverityDescription'],
+            'reason': worst.get('reason'),
+        }
+
+    return jsonify(statuses)
 
 if __name__ == '__main__':
     app.run()

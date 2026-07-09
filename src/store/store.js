@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import trainReducer from "../reducers/trainReducer"; // Assuming your reducer is in reducers/trainReducer.js
+import trainReducer from "../reducers/trainReducer";
+import lineStatusReducer from "../reducers/lineStatusReducer";
 
 const store = configureStore({
   reducer: {
-    trains: trainReducer, // Add your reducer(s) here
+    trains: trainReducer,
+    lineStatus: lineStatusReducer,
   },
 });
 
