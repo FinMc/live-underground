@@ -21,12 +21,22 @@ def load_station_locations(line):
 
 lines = ["bakerloo","central", "circle", "district", "dlr", "elizabeth", "hammersmith-city", "jubilee", "metropolitan", "northern", "piccadilly", "victoria"]
 
+# Each line's JSON file only lists its "own" stations, but trains on that line
+# frequently call at stations that belong to another line's file (shared track,
+# interchanges). Merge every file into one lookup so those stops still resolve.
+STATION_LOCATIONS = {}
+for _line in lines:
+    STATION_LOCATIONS.update(load_station_locations(_line))
+
+# A train needs at least 2 predicted stops to have anywhere to move towards -
+# a single-point "route" starts and ends at the same place, so it never moves.
+MIN_POINTS_TO_ANIMATE = 2
+
 tfl_app_key = os.getenv('TFL_APP_KEY')
 
 cors = CORS(app, resources={r"/tfl/*": {"origins": ['http://localhost:3000','https://live-underground.vercel.app']}})
 
 def fetch_line_arrivals(line):
-    station_locations = load_station_locations(line)
     params = {'app_key': tfl_app_key} if tfl_app_key else {}
     response = requests.get(
         'https://api.tfl.gov.uk/Line/%s/Arrivals' % line,
@@ -34,7 +44,7 @@ def fetch_line_arrivals(line):
         timeout=8,
     )
     response.raise_for_status()
-    return station_locations, response.json()
+    return response.json()
 
 @app.route('/tfl/arrivals')
 def get_arrivals():
@@ -46,18 +56,23 @@ def get_arrivals():
         futures = [executor.submit(fetch_line_arrivals, line) for line in lines]
         for future in as_completed(futures):
             try:
-                station_locations, arrivals = future.result()
+                arrivals = future.result()
             except requests.RequestException as error:
                 app.logger.warning('Failed to fetch TfL arrivals: %s', error)
                 continue
 
             for arrival in arrivals:
-                vehicle_id = "%s-%s" % (arrival['vehicleId'], arrival.get("destinationNaptanId", "0"))
                 naptan_id = arrival['naptanId']
+                lat, lang = STATION_LOCATIONS.get(naptan_id, (None, None))
+                if lat is None or lang is None:
+                    # Unknown station location - skip rather than let a null
+                    # coordinate become an interpolation target on the client.
+                    continue
+
+                vehicle_id = "%s-%s" % (arrival['vehicleId'], arrival.get("destinationNaptanId", "0"))
                 station_name = arrival['stationName']
                 time_to_station = arrival['timeToStation']
                 lineId = arrival['lineId']
-                lat, lang = station_locations.get(naptan_id, (None, None))
 
                 if vehicle_id not in grouped_arrivals:
                     grouped_arrivals[vehicle_id] = {'currentLocation': [], 'points': [], "currentTime": 0, "line": lineId}
@@ -70,10 +85,15 @@ def get_arrivals():
                     'lang': lang,
                 })
 
-    # Sort stations by timeToStation
-    for vehicle_id in grouped_arrivals:
-        grouped_arrivals[vehicle_id]['points'] = sorted(grouped_arrivals[vehicle_id]['points'], key=lambda x: x['timeToStation'])
-        grouped_arrivals[vehicle_id]['currentLocation'] = [grouped_arrivals[vehicle_id]['points'][0]['lat'], grouped_arrivals[vehicle_id]['points'][0]['lang']]
+    # Sort stations by timeToStation, and drop vehicles that don't have enough
+    # stops left to animate (see MIN_POINTS_TO_ANIMATE above).
+    for vehicle_id in list(grouped_arrivals.keys()):
+        points = sorted(grouped_arrivals[vehicle_id]['points'], key=lambda x: x['timeToStation'])
+        if len(points) < MIN_POINTS_TO_ANIMATE:
+            del grouped_arrivals[vehicle_id]
+            continue
+        grouped_arrivals[vehicle_id]['points'] = points
+        grouped_arrivals[vehicle_id]['currentLocation'] = [points[0]['lat'], points[0]['lang']]
 
     # Return the grouped and sorted arrivals as JSON
     return jsonify(grouped_arrivals)
