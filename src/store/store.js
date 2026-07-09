@@ -9,4 +9,6 @@ const store = configureStore({
   },
 });
 
+if (typeof window !== "undefined") window.__store = store;
+
 export default store;

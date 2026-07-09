@@ -1,10 +1,12 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import {
   ImageOverlay,
   MapContainer,
   useMapEvents,
   Circle,
+  CircleMarker,
+  Polyline,
   Tooltip,
 } from "react-leaflet";
 import { useDispatch, useSelector } from "react-redux";
@@ -114,7 +116,61 @@ const TrainTooltip = ({ train, lineStatus }) => {
   );
 };
 
+// Renders the SVG-extracted line geometry (see scripts/extract_line_geometry.py)
+// on top of the map so it can be visually checked against the drawn lines
+// before it's used to drive train movement. Enable with ?debug=paths.
+const DebugPathsOverlay = () => {
+  const [geometry, setGeometry] = useState(null);
+  const [stations, setStations] = useState(null);
+
+  useEffect(() => {
+    import("./line-geometry.json").then((m) => setGeometry(m.default));
+    import("./line-geometry-debug-stations.json").then((m) => setStations(m.default));
+  }, []);
+
+  if (!geometry) return null;
+
+  return (
+    <>
+      {Object.entries(geometry).map(([lineId, polylines]) =>
+        polylines.map((polyline, i) => (
+          <React.Fragment key={`${lineId}-${i}`}>
+            <Polyline
+              positions={polyline}
+              pathOptions={{ color: "#fff", weight: 6, opacity: 0.9 }}
+            />
+            <Polyline
+              positions={polyline}
+              pathOptions={{ color: lineColour(lineId), weight: 3, opacity: 1 }}
+            />
+          </React.Fragment>
+        ))
+      )}
+      {stations &&
+        stations.map((station, i) => (
+          <CircleMarker
+            key={i}
+            center={station.snapped}
+            radius={3}
+            pathOptions={{
+              color: "#000",
+              weight: 1,
+              fillColor: station.distanceMetres > 150 ? "#ff00ff" : "#fff",
+              fillOpacity: 1,
+            }}
+          >
+            <Tooltip>
+              {station.name} ({station.distanceMetres}m)
+            </Tooltip>
+          </CircleMarker>
+        ))}
+    </>
+  );
+};
+
 export const UndergroundMap = () => {
+  const debugPaths =
+    new URLSearchParams(window.location.search).get("debug") === "paths";
   const mapRef = useRef(null);
   const dispatch = useDispatch();
   const trains = useSelector((state) => state.trains);
@@ -185,6 +241,7 @@ export const UndergroundMap = () => {
           );
         })}
         <ImageOverlay url="/new-map.svg" bounds={bounds} zIndex={-1} />
+        {debugPaths && <DebugPathsOverlay />}
         <Locator />
       </MapContainer>
     </>
