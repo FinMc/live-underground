@@ -21,12 +21,26 @@ def load_station_locations(line):
 
 lines = ["bakerloo","central", "circle", "district", "dlr", "elizabeth", "hammersmith-city", "jubilee", "metropolitan", "northern", "piccadilly", "victoria"]
 
-# Each line's JSON file only lists its "own" stations, but trains on that line
-# frequently call at stations that belong to another line's file (shared track,
-# interchanges). Merge every file into one lookup so those stops still resolve.
+# Each line's JSON file lists that line's own stations, clicked at that line's
+# position on the schematic map. Interchanges (e.g. Tottenham Court Road, Bank)
+# therefore appear in several files under the same naptanId but at *different*
+# coordinates - each on its own line's drawn route.
+#
+# Keep the per-line lookups separate and prefer a stop's own line, so a Central
+# train's Tottenham Court Road resolves to the Central platform rather than
+# whichever file happened to be merged last. A flat merge is still built as a
+# fallback for the occasional stop a train calls at that isn't in its own line's
+# file (shared track), where any on-map position is better than none.
+STATION_LOCATIONS_BY_LINE = {_line: load_station_locations(_line) for _line in lines}
 STATION_LOCATIONS = {}
 for _line in lines:
-    STATION_LOCATIONS.update(load_station_locations(_line))
+    STATION_LOCATIONS.update(STATION_LOCATIONS_BY_LINE[_line])
+
+def locate_station(line, naptan_id):
+    own = STATION_LOCATIONS_BY_LINE.get(line)
+    if own and naptan_id in own:
+        return own[naptan_id]
+    return STATION_LOCATIONS.get(naptan_id, (None, None))
 
 # A train needs at least 2 predicted stops to have anywhere to move towards -
 # a single-point "route" starts and ends at the same place, so it never moves.
@@ -63,7 +77,7 @@ def get_arrivals():
 
             for arrival in arrivals:
                 naptan_id = arrival['naptanId']
-                lat, lang = STATION_LOCATIONS.get(naptan_id, (None, None))
+                lat, lang = locate_station(arrival['lineId'], naptan_id)
                 if lat is None or lang is None:
                     # Unknown station location - skip rather than let a null
                     # coordinate become an interpolation target on the client.
